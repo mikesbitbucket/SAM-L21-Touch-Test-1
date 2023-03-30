@@ -85,10 +85,10 @@ build/default/production/_ext/162237794/touch.o: \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
  ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/peripheral/evsys/plib_evsys.h \
- ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
+ ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/touch/touch.h \
  ../src/config/default/touch/touch_api_ptc.h \
  ../src/config/default/touch/qtm_common_components_api.h \
@@ -273,13 +273,13 @@ build/default/production/_ext/162237794/touch.o: \
 
 ../src/config/default/peripheral/evsys/plib_evsys.h:
 
-../src/config/default/peripheral/pm/plib_pm.h:
-
 ../src/config/default/peripheral/port/plib_port.h:
 
 ../src/config/default/peripheral/clock/plib_clock.h:
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
+
+../src/config/default/peripheral/pm/plib_pm.h:
 
 ../src/config/default/touch/touch.h:
 

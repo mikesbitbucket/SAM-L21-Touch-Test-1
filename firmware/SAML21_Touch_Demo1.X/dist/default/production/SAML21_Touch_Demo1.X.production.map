@@ -68,7 +68,7 @@ section                    address  length [bytes]      (dec)  Description
 .text.charge_share_test     0x1510           0x88         136   
 .text.CLOCK_Initialize      0x1598           0x7c         124   
 .text.check_for_aks_blo     0x1614           0x7a         122   
-.text.NonMaskableInt_Ha     0x168e            0x2           2   
+.text.EVSYS_Initialize      0x168e            0x2           2   
 .text.__pic32c_data_ini     0x1690           0x70         112   
 .text.qtm_load_group_co     0x1700           0x6c         108   
 .text.__libc_start_init     0x176c           0x5c          92   
@@ -77,29 +77,29 @@ section                    address  length [bytes]      (dec)  Description
 .text.qtm_calibrate_sen     0x1874           0x50          80   
 .text                       0x18c4           0x48          72  App's exec code 
 .text.Reset_Handler         0x190c           0x48          72   
-.text.touch_init            0x1954           0x44          68   
-.text.PORT_Initialize       0x1998           0x44          68   
+.text.PORT_Initialize       0x1954           0x44          68   
+.text.touch_init            0x1998           0x44          68   
 .text.select_next_chann     0x19dc           0x40          64   
 .text.touch_timer_confi     0x1a1c           0x38          56   
 .text.SYS_Initialize        0x1a54           0x38          56   
 .text.RTC_Initialize        0x1a8c           0x34          52   
 .rodata                     0x1ac0           0x30          48  Read-only const 
 .text.PM_Initialize         0x1af0           0x2e          46   
-.text.HardFault_Handler     0x1b1e            0x2           2   
+.text.datastreamer_init     0x1b1e            0x2           2   
 .text.RTC_InterruptHand     0x1b20           0x2c          44   
 .text.qtm_ptc_clear_int     0x1b4c           0x24          36   
 .text.qtm_enable_sensor     0x1b70           0x20          32   
 .text.qtm_init_sensor_k     0x1b90           0x1e          30   
-.text.Dummy_App_Func        0x1bae            0x2           2   
-.text.SERCOM3_USART_Wri     0x1bb0           0x1c          28   
-.text.SERCOM3_USART_Rea     0x1bcc           0x1c          28   
-.text.RTC_Timer32Start      0x1be8           0x1c          28   
-.text.RTC_Timer32Stop       0x1c04           0x1c          28   
+.text.NonMaskableInt_Ha     0x1bae            0x2           2   
+.text.RTC_Timer32Start      0x1bb0           0x1c          28   
+.text.RTC_Timer32Stop       0x1bcc           0x1c          28   
+.text.SERCOM3_USART_Wri     0x1be8           0x1c          28   
+.text.SERCOM3_USART_Rea     0x1c04           0x1c          28   
 .text.datastreamer_tran     0x1c20           0x16          22   
-.text.EVSYS_Initialize      0x1c36            0x2           2   
-.text.SERCOM3_USART_Wri     0x1c38           0x14          20   
-.text.RTC_Timer32Counte     0x1c4c           0x14          20   
-.text.RTC_Timer32Compar     0x1c60           0x14          20   
+.text.HardFault_Handler     0x1c36            0x2           2   
+.text.RTC_Timer32Counte     0x1c38           0x14          20   
+.text.RTC_Timer32Compar     0x1c4c           0x14          20   
+.text.SERCOM3_USART_Wri     0x1c60           0x14          20   
 .text.touch_timer_handl     0x1c74           0x14          20   
 .text.get_sensor_node_s     0x1c88           0x14          20   
 .text.get_sensor_node_r     0x1c9c           0x14          20   
@@ -110,13 +110,13 @@ section                    address  length [bytes]      (dec)  Description
 .text.BSP_Initialize        0x1d00           0x10          16   
 .text.sync_config           0x1d10           0x10          16   
 .text.qtm_update_qtlib_     0x1d20           0x10          16   
-.text.RTC_Timer32Callba     0x1d30            0xc          12   
-.text.qtm_measure_compl     0x1d3c            0xc          12   
-.text.PTC_Handler           0x1d48            0xc          12   
-.text.NVMCTRL_Initializ     0x1d54            0xc          12   
+.text.NVMCTRL_Initializ     0x1d30            0xc          12   
+.text.RTC_Timer32Callba     0x1d3c            0xc          12   
+.text.qtm_measure_compl     0x1d48            0xc          12   
+.text.PTC_Handler           0x1d54            0xc          12   
 .text.rtc_cb                0x1d60            0x8           8   
 .text.__pic32c_data_ini     0x1d68            0x8           8   
-.text.datastreamer_init     0x1d70            0x2           2   
+.text.Dummy_App_Func        0x1d70            0x2           2   
 .text.Dummy_Handler         0x1d72            0x2           2   
 .text.__dummy               0x1d74            0x2           2   
       Total ROM used  :      0x1d76        7542  2.9% of 0x40000
@@ -140,15 +140,15 @@ section                    address  length [bytes]      (dec)  Description
 .bss.noise_filter_buffe 0x200001f0            0x6           6   
 .bss                    0x200001f6            0x2           2  Uninitialized data 
 .bss.ptc_qtlib_node_sta 0x200001f8            0x6           6   
-.bss.measurement_done_t 0x200001fe            0x1           1   
-.bss.module_error_code  0x200001ff            0x1           1   
+.bss.sequence.6658      0x200001fe            0x1           1   
+.bss.measurement_done_t 0x200001ff            0x1           1   
 .bss.rtc_context        0x20000200            0x4           4   
 .bss                    0x20000204            0x8           8  Uninitialized data 
 .bss.touch_acq_signals_ 0x2000020c            0x2           2   
-.bss.time_to_measure_to 0x2000020e            0x1           1   
-.bss.touch_postprocess_ 0x2000020f            0x1           1   
-.bss.key_status         0x20000210            0x1           1   
-.bss.sequence.6658      0x20000211            0x1           1   
+.bss.module_error_code  0x2000020e            0x1           1   
+.bss.time_to_measure_to 0x2000020f            0x1           1   
+.bss.touch_postprocess_ 0x20000210            0x1           1   
+.bss.key_status         0x20000211            0x1           1   
 .data.data              0x20000214           0x13          19   
 .data                   0x20000227            0x1           1  Initialized data 
 .data.qtlib_key_set1    0x20000228           0x10          16   
@@ -189,169 +189,24 @@ Discarded input sections
                 0x00000000       0x3c c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
  .xc_stack_usage.hdr
                 0x00000000        0xe c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
- .text          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
- .data          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
- .bss           0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
- .text          0x00000000        0x0 build/default/production/_ext/162237794/touch_example.o
- .data          0x00000000        0x0 build/default/production/_ext/162237794/touch_example.o
- .bss           0x00000000        0x0 build/default/production/_ext/162237794/touch_example.o
- .text.touch_mainloop_example
-                0x00000000       0x1c build/default/production/_ext/162237794/touch_example.o
- .text.touch_status_display
-                0x00000000        0xa build/default/production/_ext/162237794/touch_example.o
- .debug_info    0x00000000      0x3e3 build/default/production/_ext/162237794/touch_example.o
- .debug_abbrev  0x00000000       0xb0 build/default/production/_ext/162237794/touch_example.o
- .debug_loc     0x00000000       0x56 build/default/production/_ext/162237794/touch_example.o
- .debug_aranges
-                0x00000000       0x28 build/default/production/_ext/162237794/touch_example.o
- .debug_ranges  0x00000000       0x18 build/default/production/_ext/162237794/touch_example.o
- .debug_line    0x00000000      0x10c build/default/production/_ext/162237794/touch_example.o
- .debug_str     0x00000000       0x1f build/default/production/_ext/162237794/touch_example.o
- .comment       0x00000000       0x2c build/default/production/_ext/162237794/touch_example.o
- .debug_frame   0x00000000       0x40 build/default/production/_ext/162237794/touch_example.o
- .ARM.attributes
-                0x00000000       0x2c build/default/production/_ext/162237794/touch_example.o
- .text          0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
- .data          0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
- .bss           0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
- .text.PM_IdleModeEnter
-                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
- .text.PM_StandbyModeEnter
-                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
- .text.PM_BackupModeEnter
-                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
- .text.PM_OffModeEnter
-                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
- .text.PM_IO_RetentionSet
-                0x00000000        0xe build/default/production/_ext/829342769/plib_pm.o
- .text.PM_IO_RetentionClear
-                0x00000000        0xe build/default/production/_ext/829342769/plib_pm.o
- .text.PM_ConfigurePerformanceLevel
-                0x00000000       0x3e build/default/production/_ext/829342769/plib_pm.o
- .text          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
- .data          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
- .bss           0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
- .text          0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
- .data          0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
- .bss           0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
- .text          0x00000000        0x0 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .data          0x00000000        0x0 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .bss           0x00000000        0x0 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_FrequencyGet
-                0x00000000        0x8 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_SerialSetup
-                0x00000000      0x140 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_ErrorGet
-                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_Read
-                0x00000000       0x94 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_ReadFreeBufferCountGet
-                0x00000000       0x14 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_ReadBufferSizeGet
-                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_ReadNotificationEnable
-                0x00000000       0x18 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_ReadThresholdSet
-                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_ReadCallbackRegister
-                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_TransmitComplete
-                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_WriteCountGet
-                0x00000000        0x8 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_WriteBufferSizeGet
-                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_WriteNotificationEnable
-                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_WriteThresholdSet
-                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text.SERCOM3_USART_WriteCallbackRegister
-                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
- .text          0x00000000        0x0 build/default/production/_ext/60180175/plib_rtc_timer.o
- .data          0x00000000        0x0 build/default/production/_ext/60180175/plib_rtc_timer.o
- .bss           0x00000000        0x0 build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32CountSyncEnable
-                0x00000000       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32CountSyncDisable
-                0x00000000       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32CounterGet
-                0x00000000       0x34 build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32PeriodGet
-                0x00000000        0x6 build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32FrequencyGet
-                0x00000000        0x6 build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32InterruptEnable
-                0x00000000        0xc build/default/production/_ext/60180175/plib_rtc_timer.o
- .text.RTC_Timer32InterruptDisable
-                0x00000000        0xc build/default/production/_ext/60180175/plib_rtc_timer.o
- .text          0x00000000        0x0 build/default/production/_ext/162237794/touch.o
- .data          0x00000000        0x0 build/default/production/_ext/162237794/touch.o
- .bss           0x00000000        0x0 build/default/production/_ext/162237794/touch.o
- .text.update_sensor_node_signal
-                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
- .text.update_sensor_node_reference
-                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
- .text.update_sensor_cc_val
-                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
- .text.update_sensor_state
-                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
- .text.calibrate_node
-                0x00000000       0x2c build/default/production/_ext/162237794/touch.o
- .text          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
- .data          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
- .bss           0x00000000        0x0 build/default/production/_ext/1360937237/main.o
- .text          0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
- .data          0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
- .bss           0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
  .text          0x00000000        0x0 build/default/production/_ext/1434821282/bsp.o
  .data          0x00000000        0x0 build/default/production/_ext/1434821282/bsp.o
  .bss           0x00000000        0x0 build/default/production/_ext/1434821282/bsp.o
- .text          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
- .data          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
- .bss           0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
- .text.read     0x00000000        0x6 build/default/production/_ext/163028504/xc32_monitor.o
- .text.write    0x00000000        0x6 build/default/production/_ext/163028504/xc32_monitor.o
- .debug_info    0x00000000      0x32e build/default/production/_ext/163028504/xc32_monitor.o
- .debug_abbrev  0x00000000       0x96 build/default/production/_ext/163028504/xc32_monitor.o
- .debug_loc     0x00000000       0x4a build/default/production/_ext/163028504/xc32_monitor.o
- .debug_aranges
-                0x00000000       0x28 build/default/production/_ext/163028504/xc32_monitor.o
- .debug_ranges  0x00000000       0x18 build/default/production/_ext/163028504/xc32_monitor.o
- .debug_line    0x00000000       0xce build/default/production/_ext/163028504/xc32_monitor.o
- .debug_str     0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
- .comment       0x00000000       0x2c build/default/production/_ext/163028504/xc32_monitor.o
- .debug_frame   0x00000000       0x30 build/default/production/_ext/163028504/xc32_monitor.o
- .ARM.attributes
-                0x00000000       0x2c build/default/production/_ext/163028504/xc32_monitor.o
- .text          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
- .data          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
- .bss           0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
- .text          0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
- .data          0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
- .bss           0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupRead
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupWrite
-                0x00000000        0xc build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupLatchRead
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupSet
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupClear
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupToggle
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupInputEnable
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_GroupOutputEnable
-                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_PinPeripheralFunctionConfig
-                0x00000000       0x48 build/default/production/_ext/1865521619/plib_port.o
- .text.PORT_PinGPIOConfig
-                0x00000000       0x20 build/default/production/_ext/1865521619/plib_port.o
- .text          0x00000000        0x0 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .data          0x00000000        0x0 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .bss           0x00000000        0x0 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .text          0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
+ .data          0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1984496892/plib_clock.o
+ .text          0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .data          0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .text          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .data          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Enable
+                0x00000000        0x8 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Disable
+                0x00000000       0x12 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Restore
+                0x00000000       0x14 build/default/production/_ext/1865468468/plib_nvic.o
  .text          0x00000000        0x0 build/default/production/_ext/1593096446/plib_nvmctrl.o
  .data          0x00000000        0x0 build/default/production/_ext/1593096446/plib_nvmctrl.o
  .bss           0x00000000        0x0 build/default/production/_ext/1593096446/plib_nvmctrl.o
@@ -387,6 +242,157 @@ Discarded input sections
                 0x00000000       0x14 build/default/production/_ext/1593096446/plib_nvmctrl.o
  .text.NVMCTRL_SecurityBitSet
                 0x00000000       0x10 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .text          0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .data          0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .bss           0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_IdleModeEnter
+                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_StandbyModeEnter
+                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_BackupModeEnter
+                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_OffModeEnter
+                0x00000000       0x14 build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_IO_RetentionSet
+                0x00000000        0xe build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_IO_RetentionClear
+                0x00000000        0xe build/default/production/_ext/829342769/plib_pm.o
+ .text.PM_ConfigurePerformanceLevel
+                0x00000000       0x3e build/default/production/_ext/829342769/plib_pm.o
+ .text          0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
+ .data          0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupRead
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupWrite
+                0x00000000        0xc build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupLatchRead
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupSet
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupClear
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupToggle
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupInputEnable
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_GroupOutputEnable
+                0x00000000        0x4 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_PinPeripheralFunctionConfig
+                0x00000000       0x48 build/default/production/_ext/1865521619/plib_port.o
+ .text.PORT_PinGPIOConfig
+                0x00000000       0x20 build/default/production/_ext/1865521619/plib_port.o
+ .text          0x00000000        0x0 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .data          0x00000000        0x0 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .bss           0x00000000        0x0 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32CountSyncEnable
+                0x00000000       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32CountSyncDisable
+                0x00000000       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32CounterGet
+                0x00000000       0x34 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32PeriodGet
+                0x00000000        0x6 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32FrequencyGet
+                0x00000000        0x6 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32InterruptEnable
+                0x00000000        0xc build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text.RTC_Timer32InterruptDisable
+                0x00000000        0xc build/default/production/_ext/60180175/plib_rtc_timer.o
+ .text          0x00000000        0x0 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .data          0x00000000        0x0 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .bss           0x00000000        0x0 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_FrequencyGet
+                0x00000000        0x8 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_SerialSetup
+                0x00000000      0x140 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_ErrorGet
+                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_Read
+                0x00000000       0x94 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_ReadFreeBufferCountGet
+                0x00000000       0x14 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_ReadBufferSizeGet
+                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_ReadNotificationEnable
+                0x00000000       0x18 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_ReadThresholdSet
+                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_ReadCallbackRegister
+                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_TransmitComplete
+                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_WriteCountGet
+                0x00000000        0x8 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_WriteBufferSizeGet
+                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_WriteNotificationEnable
+                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_WriteThresholdSet
+                0x00000000       0x10 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text.SERCOM3_USART_WriteCallbackRegister
+                0x00000000        0xc build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .text          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .data          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .bss           0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .text.read     0x00000000        0x6 build/default/production/_ext/163028504/xc32_monitor.o
+ .text.write    0x00000000        0x6 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_info    0x00000000      0x32e build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x96 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_loc     0x00000000       0x4a build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_line    0x00000000       0xce build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .comment       0x00000000       0x2c build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/default/production/_ext/163028504/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x2c build/default/production/_ext/163028504/xc32_monitor.o
+ .text          0x00000000        0x0 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .data          0x00000000        0x0 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .text          0x00000000        0x0 build/default/production/_ext/162237794/touch_example.o
+ .data          0x00000000        0x0 build/default/production/_ext/162237794/touch_example.o
+ .bss           0x00000000        0x0 build/default/production/_ext/162237794/touch_example.o
+ .text.touch_mainloop_example
+                0x00000000       0x1c build/default/production/_ext/162237794/touch_example.o
+ .text.touch_status_display
+                0x00000000        0xa build/default/production/_ext/162237794/touch_example.o
+ .debug_info    0x00000000      0x3e3 build/default/production/_ext/162237794/touch_example.o
+ .debug_abbrev  0x00000000       0xb0 build/default/production/_ext/162237794/touch_example.o
+ .debug_loc     0x00000000       0x56 build/default/production/_ext/162237794/touch_example.o
+ .debug_aranges
+                0x00000000       0x28 build/default/production/_ext/162237794/touch_example.o
+ .debug_ranges  0x00000000       0x18 build/default/production/_ext/162237794/touch_example.o
+ .debug_line    0x00000000      0x10c build/default/production/_ext/162237794/touch_example.o
+ .debug_str     0x00000000       0x1f build/default/production/_ext/162237794/touch_example.o
+ .comment       0x00000000       0x2c build/default/production/_ext/162237794/touch_example.o
+ .debug_frame   0x00000000       0x40 build/default/production/_ext/162237794/touch_example.o
+ .ARM.attributes
+                0x00000000       0x2c build/default/production/_ext/162237794/touch_example.o
+ .text          0x00000000        0x0 build/default/production/_ext/162237794/touch.o
+ .data          0x00000000        0x0 build/default/production/_ext/162237794/touch.o
+ .bss           0x00000000        0x0 build/default/production/_ext/162237794/touch.o
+ .text.update_sensor_node_signal
+                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
+ .text.update_sensor_node_reference
+                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
+ .text.update_sensor_cc_val
+                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
+ .text.update_sensor_state
+                0x00000000       0x14 build/default/production/_ext/162237794/touch.o
+ .text.calibrate_node
+                0x00000000       0x2c build/default/production/_ext/162237794/touch.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
  .text          0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
  .data          0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
  .bss           0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
@@ -406,15 +412,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 build/default/production/_ext/1171490990/libc_syscalls.o
  .ARM.attributes
                 0x00000000       0x2c build/default/production/_ext/1171490990/libc_syscalls.o
- .text          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
- .data          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
- .bss           0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
- .text.NVIC_INT_Enable
-                0x00000000        0x8 build/default/production/_ext/1865468468/plib_nvic.o
- .text.NVIC_INT_Disable
-                0x00000000       0x12 build/default/production/_ext/1865468468/plib_nvic.o
- .text.NVIC_INT_Restore
-                0x00000000       0x14 build/default/production/_ext/1865468468/plib_nvic.o
+ .text          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1360937237/main.o
  .text          0x00000000        0x0 ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a(sam_freq_hop_x_cm0p.o)
  .data          0x00000000        0x0 ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a(sam_freq_hop_x_cm0p.o)
  .bss           0x00000000        0x0 ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a(sam_freq_hop_x_cm0p.o)
@@ -644,25 +644,25 @@ Linker script and memory map
 
 LOAD c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
 LOAD c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
-LOAD build/default/production/_ext/1171490990/exceptions.o
-LOAD build/default/production/_ext/162237794/touch_example.o
-LOAD build/default/production/_ext/829342769/plib_pm.o
-LOAD build/default/production/_ext/1171490990/startup_xc32.o
-LOAD build/default/production/_ext/1984496892/plib_clock.o
-LOAD build/default/production/_ext/504274921/plib_sercom3_usart.o
-LOAD build/default/production/_ext/60180175/plib_rtc_timer.o
-LOAD build/default/production/_ext/162237794/touch.o
-LOAD build/default/production/_ext/1360937237/main.o
-LOAD build/default/production/_ext/1986646378/plib_evsys.o
 LOAD build/default/production/_ext/1434821282/bsp.o
-LOAD build/default/production/_ext/163028504/xc32_monitor.o
-LOAD build/default/production/_ext/1171490990/initialization.o
-LOAD build/default/production/_ext/1865521619/plib_port.o
-LOAD build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+LOAD build/default/production/_ext/1984496892/plib_clock.o
+LOAD build/default/production/_ext/1986646378/plib_evsys.o
+LOAD build/default/production/_ext/1865468468/plib_nvic.o
 LOAD build/default/production/_ext/1593096446/plib_nvmctrl.o
+LOAD build/default/production/_ext/829342769/plib_pm.o
+LOAD build/default/production/_ext/1865521619/plib_port.o
+LOAD build/default/production/_ext/60180175/plib_rtc_timer.o
+LOAD build/default/production/_ext/504274921/plib_sercom3_usart.o
+LOAD build/default/production/_ext/163028504/xc32_monitor.o
+LOAD build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+LOAD build/default/production/_ext/162237794/touch_example.o
+LOAD build/default/production/_ext/162237794/touch.o
+LOAD build/default/production/_ext/1171490990/exceptions.o
+LOAD build/default/production/_ext/1171490990/startup_xc32.o
+LOAD build/default/production/_ext/1171490990/initialization.o
 LOAD build/default/production/_ext/1171490990/interrupts.o
 LOAD build/default/production/_ext/1171490990/libc_syscalls.o
-LOAD build/default/production/_ext/1865468468/plib_nvic.o
+LOAD build/default/production/_ext/1360937237/main.o
 LOAD ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a
 LOAD ..\src\config\default\touch\lib\qtm_saml21_acq_0x0026.X.a
 LOAD ..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a
@@ -786,37 +786,37 @@ LOAD data_init
  .ARM.attributes
                 0x0000001e       0x2c c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004a       0x2c build/default/production/_ext/1171490990/exceptions.o
+                0x0000004a       0x2c build/default/production/_ext/1434821282/bsp.o
  .ARM.attributes
-                0x00000076       0x2c build/default/production/_ext/829342769/plib_pm.o
+                0x00000076       0x2c build/default/production/_ext/1984496892/plib_clock.o
  .ARM.attributes
-                0x000000a2       0x2c build/default/production/_ext/1171490990/startup_xc32.o
+                0x000000a2       0x2c build/default/production/_ext/1986646378/plib_evsys.o
  .ARM.attributes
-                0x000000ce       0x2c build/default/production/_ext/1984496892/plib_clock.o
+                0x000000ce       0x2c build/default/production/_ext/1865468468/plib_nvic.o
  .ARM.attributes
-                0x000000fa       0x2c build/default/production/_ext/504274921/plib_sercom3_usart.o
+                0x000000fa       0x2c build/default/production/_ext/1593096446/plib_nvmctrl.o
  .ARM.attributes
-                0x00000126       0x2c build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00000126       0x2c build/default/production/_ext/829342769/plib_pm.o
  .ARM.attributes
-                0x00000152       0x2c build/default/production/_ext/162237794/touch.o
+                0x00000152       0x2c build/default/production/_ext/1865521619/plib_port.o
  .ARM.attributes
-                0x0000017e       0x2c build/default/production/_ext/1360937237/main.o
+                0x0000017e       0x2c build/default/production/_ext/60180175/plib_rtc_timer.o
  .ARM.attributes
-                0x000001aa       0x2c build/default/production/_ext/1986646378/plib_evsys.o
+                0x000001aa       0x2c build/default/production/_ext/504274921/plib_sercom3_usart.o
  .ARM.attributes
-                0x000001d6       0x2c build/default/production/_ext/1434821282/bsp.o
+                0x000001d6       0x2c build/default/production/_ext/1662611032/datastreamer_UART_sam.o
  .ARM.attributes
-                0x00000202       0x2c build/default/production/_ext/1171490990/initialization.o
+                0x00000202       0x2c build/default/production/_ext/162237794/touch.o
  .ARM.attributes
-                0x0000022e       0x2c build/default/production/_ext/1865521619/plib_port.o
+                0x0000022e       0x2c build/default/production/_ext/1171490990/exceptions.o
  .ARM.attributes
-                0x0000025a       0x2c build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+                0x0000025a       0x2c build/default/production/_ext/1171490990/startup_xc32.o
  .ARM.attributes
-                0x00000286       0x2c build/default/production/_ext/1593096446/plib_nvmctrl.o
+                0x00000286       0x2c build/default/production/_ext/1171490990/initialization.o
  .ARM.attributes
                 0x000002b2       0x2c build/default/production/_ext/1171490990/interrupts.o
  .ARM.attributes
-                0x000002de       0x2c build/default/production/_ext/1865468468/plib_nvic.o
+                0x000002de       0x2c build/default/production/_ext/1360937237/main.o
  .ARM.attributes
                 0x0000030a       0x2c ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a(sam_freq_hop_x_cm0p.o)
  .ARM.attributes
@@ -841,22 +841,22 @@ LOAD data_init
 .comment        0x00000000       0x67
  .comment       0x00000000       0x2b c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
                                  0x2c (size before relaxing)
- .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/exceptions.o
- .comment       0x0000002b       0x2c build/default/production/_ext/829342769/plib_pm.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/startup_xc32.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1984496892/plib_clock.o
- .comment       0x0000002b       0x2c build/default/production/_ext/504274921/plib_sercom3_usart.o
- .comment       0x0000002b       0x2c build/default/production/_ext/60180175/plib_rtc_timer.o
- .comment       0x0000002b       0x2c build/default/production/_ext/162237794/touch.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1360937237/main.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1986646378/plib_evsys.o
  .comment       0x0000002b       0x2c build/default/production/_ext/1434821282/bsp.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/initialization.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1865521619/plib_port.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1593096446/plib_nvmctrl.o
- .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/interrupts.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1984496892/plib_clock.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1986646378/plib_evsys.o
  .comment       0x0000002b       0x2c build/default/production/_ext/1865468468/plib_nvic.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/829342769/plib_pm.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1865521619/plib_port.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/60180175/plib_rtc_timer.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/162237794/touch.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/exceptions.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/startup_xc32.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/initialization.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1171490990/interrupts.o
+ .comment       0x0000002b       0x2c build/default/production/_ext/1360937237/main.o
  .comment       0x0000002b       0x3c ..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a(sam_freq_hop_x_cm0p.o)
                                  0x3d (size before relaxing)
  .comment       0x00000067       0x3d ..\src\config\default\touch\lib\qtm_saml21_acq_0x0026.X.a(sam_acq_x_saml21.o)
@@ -868,22 +868,22 @@ LOAD data_init
  .comment       0x00000067       0x2c c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
 
 .debug_info     0x00000000     0xc1f0
- .debug_info    0x00000000      0x348 build/default/production/_ext/1171490990/exceptions.o
- .debug_info    0x00000348      0x621 build/default/production/_ext/829342769/plib_pm.o
- .debug_info    0x00000969      0x4a9 build/default/production/_ext/1171490990/startup_xc32.o
- .debug_info    0x00000e12      0xabf build/default/production/_ext/1984496892/plib_clock.o
- .debug_info    0x000018d1     0x208e build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_info    0x0000395f      0xc17 build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_info    0x00004576     0x2157 build/default/production/_ext/162237794/touch.o
- .debug_info    0x000066cd      0x5dd build/default/production/_ext/1360937237/main.o
- .debug_info    0x00006caa      0x324 build/default/production/_ext/1986646378/plib_evsys.o
- .debug_info    0x00006fce      0x546 build/default/production/_ext/1434821282/bsp.o
- .debug_info    0x00007514      0x624 build/default/production/_ext/1171490990/initialization.o
- .debug_info    0x00007b38      0xd59 build/default/production/_ext/1865521619/plib_port.o
- .debug_info    0x00008891      0x72e build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_info    0x00008fbf      0xb62 build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_info    0x00009b21      0x88b build/default/production/_ext/1171490990/interrupts.o
- .debug_info    0x0000a3ac      0xb0a build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_info    0x00000000      0x546 build/default/production/_ext/1434821282/bsp.o
+ .debug_info    0x00000546      0xabf build/default/production/_ext/1984496892/plib_clock.o
+ .debug_info    0x00001005      0x324 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_info    0x00001329      0xb0a build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_info    0x00001e33      0xb62 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_info    0x00002995      0x621 build/default/production/_ext/829342769/plib_pm.o
+ .debug_info    0x00002fb6      0xd59 build/default/production/_ext/1865521619/plib_port.o
+ .debug_info    0x00003d0f      0xc17 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_info    0x00004926     0x208e build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_info    0x000069b4      0x72e build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_info    0x000070e2     0x2157 build/default/production/_ext/162237794/touch.o
+ .debug_info    0x00009239      0x348 build/default/production/_ext/1171490990/exceptions.o
+ .debug_info    0x00009581      0x4a9 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_info    0x00009a2a      0x624 build/default/production/_ext/1171490990/initialization.o
+ .debug_info    0x0000a04e      0x88b build/default/production/_ext/1171490990/interrupts.o
+ .debug_info    0x0000a8d9      0x5dd build/default/production/_ext/1360937237/main.o
  .debug_info    0x0000aeb6      0x298 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_info    0x0000b14e      0x299 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_info    0x0000b3e7      0x617 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
@@ -892,22 +892,22 @@ LOAD data_init
  .debug_info    0x0000c1ca       0x26 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
 
 .debug_abbrev   0x00000000     0x194c
- .debug_abbrev  0x00000000       0x3e build/default/production/_ext/1171490990/exceptions.o
- .debug_abbrev  0x0000003e       0xfb build/default/production/_ext/829342769/plib_pm.o
- .debug_abbrev  0x00000139      0x110 build/default/production/_ext/1171490990/startup_xc32.o
- .debug_abbrev  0x00000249      0x102 build/default/production/_ext/1984496892/plib_clock.o
- .debug_abbrev  0x0000034b      0x46f build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_abbrev  0x000007ba      0x189 build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_abbrev  0x00000943      0x32d build/default/production/_ext/162237794/touch.o
- .debug_abbrev  0x00000c70      0x115 build/default/production/_ext/1360937237/main.o
- .debug_abbrev  0x00000d85       0x3b build/default/production/_ext/1986646378/plib_evsys.o
- .debug_abbrev  0x00000dc0       0xa8 build/default/production/_ext/1434821282/bsp.o
- .debug_abbrev  0x00000e68       0xe9 build/default/production/_ext/1171490990/initialization.o
- .debug_abbrev  0x00000f51      0x1d6 build/default/production/_ext/1865521619/plib_port.o
- .debug_abbrev  0x00001127      0x150 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_abbrev  0x00001277      0x1a9 build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_abbrev  0x00001420       0xb5 build/default/production/_ext/1171490990/interrupts.o
- .debug_abbrev  0x000014d5      0x1e1 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_abbrev  0x00000000       0xa8 build/default/production/_ext/1434821282/bsp.o
+ .debug_abbrev  0x000000a8      0x102 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_abbrev  0x000001aa       0x3b build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_abbrev  0x000001e5      0x1e1 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_abbrev  0x000003c6      0x1a9 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_abbrev  0x0000056f       0xfb build/default/production/_ext/829342769/plib_pm.o
+ .debug_abbrev  0x0000066a      0x1d6 build/default/production/_ext/1865521619/plib_port.o
+ .debug_abbrev  0x00000840      0x189 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_abbrev  0x000009c9      0x46f build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_abbrev  0x00000e38      0x150 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_abbrev  0x00000f88      0x32d build/default/production/_ext/162237794/touch.o
+ .debug_abbrev  0x000012b5       0x3e build/default/production/_ext/1171490990/exceptions.o
+ .debug_abbrev  0x000012f3      0x110 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_abbrev  0x00001403       0xe9 build/default/production/_ext/1171490990/initialization.o
+ .debug_abbrev  0x000014ec       0xb5 build/default/production/_ext/1171490990/interrupts.o
+ .debug_abbrev  0x000015a1      0x115 build/default/production/_ext/1360937237/main.o
  .debug_abbrev  0x000016b6       0x2e c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_abbrev  0x000016e4       0x2e c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_abbrev  0x00001712      0x117 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
@@ -917,37 +917,37 @@ LOAD data_init
 
 .debug_aranges  0x00000000      0x578
  .debug_aranges
-                0x00000000       0x28 build/default/production/_ext/1171490990/exceptions.o
+                0x00000000       0x20 build/default/production/_ext/1434821282/bsp.o
  .debug_aranges
-                0x00000028       0x58 build/default/production/_ext/829342769/plib_pm.o
+                0x00000020       0x20 build/default/production/_ext/1984496892/plib_clock.o
  .debug_aranges
-                0x00000080       0x28 build/default/production/_ext/1171490990/startup_xc32.o
+                0x00000040       0x20 build/default/production/_ext/1986646378/plib_evsys.o
  .debug_aranges
-                0x000000a8       0x20 build/default/production/_ext/1984496892/plib_clock.o
+                0x00000060       0x38 build/default/production/_ext/1865468468/plib_nvic.o
  .debug_aranges
-                0x000000c8       0xc0 build/default/production/_ext/504274921/plib_sercom3_usart.o
+                0x00000098       0xa0 build/default/production/_ext/1593096446/plib_nvmctrl.o
  .debug_aranges
-                0x00000188       0x88 build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00000138       0x58 build/default/production/_ext/829342769/plib_pm.o
  .debug_aranges
-                0x00000210       0x98 build/default/production/_ext/162237794/touch.o
+                0x00000190       0x70 build/default/production/_ext/1865521619/plib_port.o
  .debug_aranges
-                0x000002a8       0x20 build/default/production/_ext/1360937237/main.o
+                0x00000200       0x88 build/default/production/_ext/60180175/plib_rtc_timer.o
  .debug_aranges
-                0x000002c8       0x20 build/default/production/_ext/1986646378/plib_evsys.o
+                0x00000288       0xc0 build/default/production/_ext/504274921/plib_sercom3_usart.o
  .debug_aranges
-                0x000002e8       0x20 build/default/production/_ext/1434821282/bsp.o
+                0x00000348       0x30 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
  .debug_aranges
-                0x00000308       0x20 build/default/production/_ext/1171490990/initialization.o
+                0x00000378       0x98 build/default/production/_ext/162237794/touch.o
  .debug_aranges
-                0x00000328       0x70 build/default/production/_ext/1865521619/plib_port.o
+                0x00000410       0x28 build/default/production/_ext/1171490990/exceptions.o
  .debug_aranges
-                0x00000398       0x30 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+                0x00000438       0x28 build/default/production/_ext/1171490990/startup_xc32.o
  .debug_aranges
-                0x000003c8       0xa0 build/default/production/_ext/1593096446/plib_nvmctrl.o
+                0x00000460       0x20 build/default/production/_ext/1171490990/initialization.o
  .debug_aranges
-                0x00000468       0x20 build/default/production/_ext/1171490990/interrupts.o
+                0x00000480       0x20 build/default/production/_ext/1171490990/interrupts.o
  .debug_aranges
-                0x00000488       0x38 build/default/production/_ext/1865468468/plib_nvic.o
+                0x000004a0       0x20 build/default/production/_ext/1360937237/main.o
  .debug_aranges
                 0x000004c0       0x20 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_aranges
@@ -962,43 +962,43 @@ LOAD data_init
                 0x00000558       0x20 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
 
 .debug_ranges   0x00000000      0x530
- .debug_ranges  0x00000000       0x18 build/default/production/_ext/1171490990/exceptions.o
- .debug_ranges  0x00000018       0x48 build/default/production/_ext/829342769/plib_pm.o
- .debug_ranges  0x00000060       0x18 build/default/production/_ext/1171490990/startup_xc32.o
- .debug_ranges  0x00000078       0x10 build/default/production/_ext/1984496892/plib_clock.o
- .debug_ranges  0x00000088      0x1d0 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_ranges  0x00000258       0x78 build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_ranges  0x000002d0       0x88 build/default/production/_ext/162237794/touch.o
- .debug_ranges  0x00000358       0x10 build/default/production/_ext/1360937237/main.o
- .debug_ranges  0x00000368       0x10 build/default/production/_ext/1986646378/plib_evsys.o
- .debug_ranges  0x00000378       0x10 build/default/production/_ext/1434821282/bsp.o
- .debug_ranges  0x00000388       0x10 build/default/production/_ext/1171490990/initialization.o
- .debug_ranges  0x00000398       0x60 build/default/production/_ext/1865521619/plib_port.o
- .debug_ranges  0x000003f8       0x20 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_ranges  0x00000418       0x90 build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_ranges  0x000004a8       0x10 build/default/production/_ext/1171490990/interrupts.o
- .debug_ranges  0x000004b8       0x28 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_ranges  0x00000000       0x10 build/default/production/_ext/1434821282/bsp.o
+ .debug_ranges  0x00000010       0x10 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_ranges  0x00000020       0x10 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_ranges  0x00000030       0x28 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_ranges  0x00000058       0x90 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_ranges  0x000000e8       0x48 build/default/production/_ext/829342769/plib_pm.o
+ .debug_ranges  0x00000130       0x60 build/default/production/_ext/1865521619/plib_port.o
+ .debug_ranges  0x00000190       0x78 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_ranges  0x00000208      0x1d0 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_ranges  0x000003d8       0x20 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_ranges  0x000003f8       0x88 build/default/production/_ext/162237794/touch.o
+ .debug_ranges  0x00000480       0x18 build/default/production/_ext/1171490990/exceptions.o
+ .debug_ranges  0x00000498       0x18 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_ranges  0x000004b0       0x10 build/default/production/_ext/1171490990/initialization.o
+ .debug_ranges  0x000004c0       0x10 build/default/production/_ext/1171490990/interrupts.o
+ .debug_ranges  0x000004d0       0x10 build/default/production/_ext/1360937237/main.o
  .debug_ranges  0x000004e0       0x10 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_ranges  0x000004f0       0x10 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_ranges  0x00000500       0x30 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
 
 .debug_line     0x00000000     0x32fc
- .debug_line    0x00000000       0x6e build/default/production/_ext/1171490990/exceptions.o
- .debug_line    0x0000006e      0x291 build/default/production/_ext/829342769/plib_pm.o
- .debug_line    0x000002ff      0x157 build/default/production/_ext/1171490990/startup_xc32.o
- .debug_line    0x00000456      0x1d6 build/default/production/_ext/1984496892/plib_clock.o
- .debug_line    0x0000062c      0xbf5 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_line    0x00001221      0x392 build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_line    0x000015b3      0x48b build/default/production/_ext/162237794/touch.o
- .debug_line    0x00001a3e      0x156 build/default/production/_ext/1360937237/main.o
- .debug_line    0x00001b94       0x66 build/default/production/_ext/1986646378/plib_evsys.o
- .debug_line    0x00001bfa       0xd8 build/default/production/_ext/1434821282/bsp.o
- .debug_line    0x00001cd2      0x309 build/default/production/_ext/1171490990/initialization.o
- .debug_line    0x00001fdb      0x2d2 build/default/production/_ext/1865521619/plib_port.o
- .debug_line    0x000022ad      0x231 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_line    0x000024de      0x44e build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_line    0x0000292c       0xba build/default/production/_ext/1171490990/interrupts.o
- .debug_line    0x000029e6      0x326 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_line    0x00000000       0xd8 build/default/production/_ext/1434821282/bsp.o
+ .debug_line    0x000000d8      0x1d6 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_line    0x000002ae       0x66 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_line    0x00000314      0x326 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_line    0x0000063a      0x44e build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_line    0x00000a88      0x291 build/default/production/_ext/829342769/plib_pm.o
+ .debug_line    0x00000d19      0x2d2 build/default/production/_ext/1865521619/plib_port.o
+ .debug_line    0x00000feb      0x392 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_line    0x0000137d      0xbf5 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_line    0x00001f72      0x231 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_line    0x000021a3      0x48b build/default/production/_ext/162237794/touch.o
+ .debug_line    0x0000262e       0x6e build/default/production/_ext/1171490990/exceptions.o
+ .debug_line    0x0000269c      0x157 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_line    0x000027f3      0x309 build/default/production/_ext/1171490990/initialization.o
+ .debug_line    0x00002afc       0xba build/default/production/_ext/1171490990/interrupts.o
+ .debug_line    0x00002bb6      0x156 build/default/production/_ext/1360937237/main.o
  .debug_line    0x00002d0c       0xac c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_line    0x00002db8      0x114 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_line    0x00002ecc      0x1ca c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
@@ -1007,22 +1007,22 @@ LOAD data_init
  .debug_line    0x0000325b       0xa1 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
 
 .debug_str      0x00000000      0x798
- .debug_str     0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
- .debug_str     0x00000000        0x0 build/default/production/_ext/829342769/plib_pm.o
- .debug_str     0x00000000       0x2f build/default/production/_ext/1171490990/startup_xc32.o
- .debug_str     0x0000002f       0x1e build/default/production/_ext/1984496892/plib_clock.o
- .debug_str     0x0000004d      0x19d build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_str     0x000001ea       0xbb build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_str     0x000002a5      0x2a4 build/default/production/_ext/162237794/touch.o
- .debug_str     0x00000549       0x2e build/default/production/_ext/1360937237/main.o
- .debug_str     0x00000577        0x0 build/default/production/_ext/1986646378/plib_evsys.o
- .debug_str     0x00000577        0x0 build/default/production/_ext/1434821282/bsp.o
- .debug_str     0x00000577       0xa5 build/default/production/_ext/1171490990/initialization.o
- .debug_str     0x0000061c        0xb build/default/production/_ext/1865521619/plib_port.o
- .debug_str     0x00000627       0x68 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_str     0x0000068f       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_str     0x000006a5        0x0 build/default/production/_ext/1171490990/interrupts.o
- .debug_str     0x000006a5        0xa build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_str     0x00000000        0x0 build/default/production/_ext/1434821282/bsp.o
+ .debug_str     0x00000000       0x1e build/default/production/_ext/1984496892/plib_clock.o
+ .debug_str     0x0000001e        0x0 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_str     0x0000001e        0xa build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_str     0x00000028       0x16 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_str     0x0000003e        0x0 build/default/production/_ext/829342769/plib_pm.o
+ .debug_str     0x0000003e        0xb build/default/production/_ext/1865521619/plib_port.o
+ .debug_str     0x00000049       0xbb build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_str     0x00000104      0x19d build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_str     0x000002a1       0x68 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_str     0x00000309      0x2a4 build/default/production/_ext/162237794/touch.o
+ .debug_str     0x000005ad        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .debug_str     0x000005ad       0x2f build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_str     0x000005dc       0xa5 build/default/production/_ext/1171490990/initialization.o
+ .debug_str     0x00000681        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .debug_str     0x00000681       0x2e build/default/production/_ext/1360937237/main.o
  .debug_str     0x000006af        0x0 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_str     0x000006af        0x0 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_str     0x000006af        0x0 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
@@ -1031,38 +1031,38 @@ LOAD data_init
  .debug_str     0x000006af       0xe9 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
 
 .debug_frame    0x00000000      0x938
- .debug_frame   0x00000000       0x30 build/default/production/_ext/1171490990/exceptions.o
- .debug_frame   0x00000030       0x90 build/default/production/_ext/829342769/plib_pm.o
- .debug_frame   0x000000c0       0x38 build/default/production/_ext/1171490990/startup_xc32.o
- .debug_frame   0x000000f8       0x20 build/default/production/_ext/1984496892/plib_clock.o
- .debug_frame   0x00000118      0x1e0 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_frame   0x000002f8       0xf8 build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_frame   0x000003f0      0x148 build/default/production/_ext/162237794/touch.o
- .debug_frame   0x00000538       0x2c build/default/production/_ext/1360937237/main.o
- .debug_frame   0x00000564       0x20 build/default/production/_ext/1986646378/plib_evsys.o
- .debug_frame   0x00000584       0x20 build/default/production/_ext/1434821282/bsp.o
- .debug_frame   0x000005a4       0x28 build/default/production/_ext/1171490990/initialization.o
- .debug_frame   0x000005cc       0xcc build/default/production/_ext/1865521619/plib_port.o
- .debug_frame   0x00000698       0x58 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_frame   0x000006f0      0x148 build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_frame   0x00000838       0x20 build/default/production/_ext/1171490990/interrupts.o
- .debug_frame   0x00000858       0x50 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_frame   0x00000000       0x20 build/default/production/_ext/1434821282/bsp.o
+ .debug_frame   0x00000020       0x20 build/default/production/_ext/1984496892/plib_clock.o
+ .debug_frame   0x00000040       0x20 build/default/production/_ext/1986646378/plib_evsys.o
+ .debug_frame   0x00000060       0x50 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_frame   0x000000b0      0x148 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_frame   0x000001f8       0x90 build/default/production/_ext/829342769/plib_pm.o
+ .debug_frame   0x00000288       0xcc build/default/production/_ext/1865521619/plib_port.o
+ .debug_frame   0x00000354       0xf8 build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_frame   0x0000044c      0x1e0 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_frame   0x0000062c       0x58 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_frame   0x00000684      0x148 build/default/production/_ext/162237794/touch.o
+ .debug_frame   0x000007cc       0x30 build/default/production/_ext/1171490990/exceptions.o
+ .debug_frame   0x000007fc       0x38 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_frame   0x00000834       0x28 build/default/production/_ext/1171490990/initialization.o
+ .debug_frame   0x0000085c       0x20 build/default/production/_ext/1171490990/interrupts.o
+ .debug_frame   0x0000087c       0x2c build/default/production/_ext/1360937237/main.o
  .debug_frame   0x000008a8       0x28 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_frame   0x000008d0       0x30 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_frame   0x00000900       0x38 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
 
 .debug_loc      0x00000000     0x1cfe
- .debug_loc     0x00000000       0x63 build/default/production/_ext/829342769/plib_pm.o
- .debug_loc     0x00000063       0x20 build/default/production/_ext/1171490990/startup_xc32.o
- .debug_loc     0x00000083      0xd28 build/default/production/_ext/504274921/plib_sercom3_usart.o
- .debug_loc     0x00000dab       0x6a build/default/production/_ext/60180175/plib_rtc_timer.o
- .debug_loc     0x00000e15      0x30e build/default/production/_ext/162237794/touch.o
- .debug_loc     0x00001123       0x20 build/default/production/_ext/1360937237/main.o
- .debug_loc     0x00001143       0x45 build/default/production/_ext/1171490990/initialization.o
- .debug_loc     0x00001188      0x226 build/default/production/_ext/1865521619/plib_port.o
- .debug_loc     0x000013ae      0x14d build/default/production/_ext/1662611032/datastreamer_UART_sam.o
- .debug_loc     0x000014fb      0x689 build/default/production/_ext/1593096446/plib_nvmctrl.o
- .debug_loc     0x00001b84       0xf4 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_loc     0x00000000       0xf4 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_loc     0x000000f4      0x689 build/default/production/_ext/1593096446/plib_nvmctrl.o
+ .debug_loc     0x0000077d       0x63 build/default/production/_ext/829342769/plib_pm.o
+ .debug_loc     0x000007e0      0x226 build/default/production/_ext/1865521619/plib_port.o
+ .debug_loc     0x00000a06       0x6a build/default/production/_ext/60180175/plib_rtc_timer.o
+ .debug_loc     0x00000a70      0xd28 build/default/production/_ext/504274921/plib_sercom3_usart.o
+ .debug_loc     0x00001798      0x14d build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+ .debug_loc     0x000018e5      0x30e build/default/production/_ext/162237794/touch.o
+ .debug_loc     0x00001bf3       0x20 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_loc     0x00001c13       0x45 build/default/production/_ext/1171490990/initialization.o
+ .debug_loc     0x00001c58       0x20 build/default/production/_ext/1360937237/main.o
  .debug_loc     0x00001c78       0x14 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
  .debug_loc     0x00001c8c       0x14 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_0_1.o)
  .debug_loc     0x00001ca0       0x5e c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
@@ -1161,40 +1161,40 @@ LOAD data_init
  .bss           0x200001f6        0x2 ..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a(sam_touch_key_x_cm0p.o)
                 0x200001f6                qtm_local_ms_timecount
 
-.bss.measurement_done_touch%17
+.bss.sequence.6658%17
                 0x200001fe        0x1
- .bss.measurement_done_touch
-                0x200001fe        0x1 build/default/production/_ext/162237794/touch.o
-                0x200001fe                measurement_done_touch
-
-.bss.module_error_code%18
-                0x200001ff        0x1
- .bss.module_error_code
-                0x200001ff        0x1 build/default/production/_ext/162237794/touch.o
-                0x200001ff                module_error_code
-
-.bss.time_to_measure_touch_var%19
-                0x2000020e        0x1
- .bss.time_to_measure_touch_var
-                0x2000020e        0x1 build/default/production/_ext/162237794/touch.o
-                0x2000020e                time_to_measure_touch_var
-
-.bss.touch_postprocess_request%20
-                0x2000020f        0x1
- .bss.touch_postprocess_request
-                0x2000020f        0x1 build/default/production/_ext/162237794/touch.o
-                0x2000020f                touch_postprocess_request
-
-.bss.key_status%21
-                0x20000210        0x1
- .bss.key_status
-                0x20000210        0x1 build/default/production/_ext/1360937237/main.o
-                0x20000210                key_status
-
-.bss.sequence.6658%22
-                0x20000211        0x1
  .bss.sequence.6658
-                0x20000211        0x1 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+                0x200001fe        0x1 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+
+.bss.measurement_done_touch%18
+                0x200001ff        0x1
+ .bss.measurement_done_touch
+                0x200001ff        0x1 build/default/production/_ext/162237794/touch.o
+                0x200001ff                measurement_done_touch
+
+.bss.module_error_code%19
+                0x2000020e        0x1
+ .bss.module_error_code
+                0x2000020e        0x1 build/default/production/_ext/162237794/touch.o
+                0x2000020e                module_error_code
+
+.bss.time_to_measure_touch_var%20
+                0x2000020f        0x1
+ .bss.time_to_measure_touch_var
+                0x2000020f        0x1 build/default/production/_ext/162237794/touch.o
+                0x2000020f                time_to_measure_touch_var
+
+.bss.touch_postprocess_request%21
+                0x20000210        0x1
+ .bss.touch_postprocess_request
+                0x20000210        0x1 build/default/production/_ext/162237794/touch.o
+                0x20000210                touch_postprocess_request
+
+.bss.key_status%22
+                0x20000211        0x1
+ .bss.key_status
+                0x20000211        0x1 build/default/production/_ext/1360937237/main.o
+                0x20000211                key_status
 
 .data.data%23   0x20000214       0x13
  .data.data     0x20000214       0x13 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
@@ -1412,17 +1412,17 @@ LOAD data_init
                 0x0000190c       0x48 build/default/production/_ext/1171490990/startup_xc32.o
                 0x0000190c                Reset_Handler
 
-.text.touch_init%61
+.text.PORT_Initialize%61
                 0x00001954       0x44
- .text.touch_init
-                0x00001954       0x44 build/default/production/_ext/162237794/touch.o
-                0x00001954                touch_init
-
-.text.PORT_Initialize%62
-                0x00001998       0x44
  .text.PORT_Initialize
-                0x00001998       0x44 build/default/production/_ext/1865521619/plib_port.o
-                0x00001998                PORT_Initialize
+                0x00001954       0x44 build/default/production/_ext/1865521619/plib_port.o
+                0x00001954                PORT_Initialize
+
+.text.touch_init%62
+                0x00001998       0x44
+ .text.touch_init
+                0x00001998       0x44 build/default/production/_ext/162237794/touch.o
+                0x00001998                touch_init
 
 .text.select_next_channel_to_measure%63
                 0x000019dc       0x40
@@ -1480,28 +1480,28 @@ LOAD data_init
                 0x00001b90       0x1e ..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a(sam_touch_key_x_cm0p.o)
                 0x00001b90                qtm_init_sensor_key
 
-.text.SERCOM3_USART_WritePendingBytesGet%73
+.text.RTC_Timer32Start%73
                 0x00001bb0       0x1c
- .text.SERCOM3_USART_WritePendingBytesGet
-                0x00001bb0       0x1c build/default/production/_ext/504274921/plib_sercom3_usart.o
-
-.text.SERCOM3_USART_ReadCountGet%74
-                0x00001bcc       0x1c
- .text.SERCOM3_USART_ReadCountGet
-                0x00001bcc       0x1c build/default/production/_ext/504274921/plib_sercom3_usart.o
-                0x00001bcc                SERCOM3_USART_ReadCountGet
-
-.text.RTC_Timer32Start%75
-                0x00001be8       0x1c
  .text.RTC_Timer32Start
-                0x00001be8       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
-                0x00001be8                RTC_Timer32Start
+                0x00001bb0       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00001bb0                RTC_Timer32Start
 
-.text.RTC_Timer32Stop%76
-                0x00001c04       0x1c
+.text.RTC_Timer32Stop%74
+                0x00001bcc       0x1c
  .text.RTC_Timer32Stop
-                0x00001c04       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
-                0x00001c04                RTC_Timer32Stop
+                0x00001bcc       0x1c build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00001bcc                RTC_Timer32Stop
+
+.text.SERCOM3_USART_WritePendingBytesGet%75
+                0x00001be8       0x1c
+ .text.SERCOM3_USART_WritePendingBytesGet
+                0x00001be8       0x1c build/default/production/_ext/504274921/plib_sercom3_usart.o
+
+.text.SERCOM3_USART_ReadCountGet%76
+                0x00001c04       0x1c
+ .text.SERCOM3_USART_ReadCountGet
+                0x00001c04       0x1c build/default/production/_ext/504274921/plib_sercom3_usart.o
+                0x00001c04                SERCOM3_USART_ReadCountGet
 
 .text.datastreamer_transmit%77
                 0x00001c20       0x16
@@ -1509,23 +1509,23 @@ LOAD data_init
                 0x00001c20       0x16 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
                 0x00001c20                datastreamer_transmit
 
-.text.SERCOM3_USART_WriteFreeBufferCountGet%78
+.text.RTC_Timer32CounterSet%78
                 0x00001c38       0x14
- .text.SERCOM3_USART_WriteFreeBufferCountGet
-                0x00001c38       0x14 build/default/production/_ext/504274921/plib_sercom3_usart.o
-                0x00001c38                SERCOM3_USART_WriteFreeBufferCountGet
-
-.text.RTC_Timer32CounterSet%79
-                0x00001c4c       0x14
  .text.RTC_Timer32CounterSet
-                0x00001c4c       0x14 build/default/production/_ext/60180175/plib_rtc_timer.o
-                0x00001c4c                RTC_Timer32CounterSet
+                0x00001c38       0x14 build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00001c38                RTC_Timer32CounterSet
 
-.text.RTC_Timer32CompareSet%80
-                0x00001c60       0x14
+.text.RTC_Timer32CompareSet%79
+                0x00001c4c       0x14
  .text.RTC_Timer32CompareSet
-                0x00001c60       0x14 build/default/production/_ext/60180175/plib_rtc_timer.o
-                0x00001c60                RTC_Timer32CompareSet
+                0x00001c4c       0x14 build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00001c4c                RTC_Timer32CompareSet
+
+.text.SERCOM3_USART_WriteFreeBufferCountGet%80
+                0x00001c60       0x14
+ .text.SERCOM3_USART_WriteFreeBufferCountGet
+                0x00001c60       0x14 build/default/production/_ext/504274921/plib_sercom3_usart.o
+                0x00001c60                SERCOM3_USART_WriteFreeBufferCountGet
 
 .text.touch_timer_handler%81
                 0x00001c74       0x14
@@ -1584,28 +1584,28 @@ LOAD data_init
                 0x00001d20       0x10 ..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a(sam_touch_key_x_cm0p.o)
                 0x00001d20                qtm_update_qtlib_timer
 
-.text.RTC_Timer32CallbackRegister%91
+.text.NVMCTRL_Initialize%91
                 0x00001d30        0xc
- .text.RTC_Timer32CallbackRegister
-                0x00001d30        0xc build/default/production/_ext/60180175/plib_rtc_timer.o
-                0x00001d30                RTC_Timer32CallbackRegister
-
-.text.qtm_measure_complete_callback%92
-                0x00001d3c        0xc
- .text.qtm_measure_complete_callback
-                0x00001d3c        0xc build/default/production/_ext/162237794/touch.o
-
-.text.PTC_Handler%93
-                0x00001d48        0xc
- .text.PTC_Handler
-                0x00001d48        0xc build/default/production/_ext/162237794/touch.o
-                0x00001d48                PTC_Handler
-
-.text.NVMCTRL_Initialize%94
-                0x00001d54        0xc
  .text.NVMCTRL_Initialize
-                0x00001d54        0xc build/default/production/_ext/1593096446/plib_nvmctrl.o
-                0x00001d54                NVMCTRL_Initialize
+                0x00001d30        0xc build/default/production/_ext/1593096446/plib_nvmctrl.o
+                0x00001d30                NVMCTRL_Initialize
+
+.text.RTC_Timer32CallbackRegister%92
+                0x00001d3c        0xc
+ .text.RTC_Timer32CallbackRegister
+                0x00001d3c        0xc build/default/production/_ext/60180175/plib_rtc_timer.o
+                0x00001d3c                RTC_Timer32CallbackRegister
+
+.text.qtm_measure_complete_callback%93
+                0x00001d48        0xc
+ .text.qtm_measure_complete_callback
+                0x00001d48        0xc build/default/production/_ext/162237794/touch.o
+
+.text.PTC_Handler%94
+                0x00001d54        0xc
+ .text.PTC_Handler
+                0x00001d54        0xc build/default/production/_ext/162237794/touch.o
+                0x00001d54                PTC_Handler
 
 .text.rtc_cb%95
                 0x00001d60        0x8
@@ -1618,39 +1618,39 @@ LOAD data_init
                 0x00001d68        0x8 c:/program files/microchip/xc32/v4.21/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init_wrapper.o)
                 0x00001d68                __pic32c_data_initialization
 
-.text.NonMaskableInt_Handler%97
+.text.EVSYS_Initialize%97
                 0x0000168e        0x2
- .text.NonMaskableInt_Handler
-                0x0000168e        0x2 build/default/production/_ext/1171490990/exceptions.o
-                0x0000168e                NonMaskableInt_Handler
-
-.text.HardFault_Handler%98
-                0x00001b1e        0x2
- .text.HardFault_Handler
-                0x00001b1e        0x2 build/default/production/_ext/1171490990/exceptions.o
-                0x00001b1e                HardFault_Handler
-
-.text.Dummy_App_Func%99
-                0x00001bae        0x2
- .text.Dummy_App_Func
-                0x00001bae        0x2 build/default/production/_ext/1171490990/startup_xc32.o
-                0x00001bae                _on_reset
-                0x00001bae                _on_bootstrap
-                0x00001bae                __xc32_on_reset
-                0x00001bae                Dummy_App_Func
-                0x00001bae                __xc32_on_bootstrap
-
-.text.EVSYS_Initialize%100
-                0x00001c36        0x2
  .text.EVSYS_Initialize
-                0x00001c36        0x2 build/default/production/_ext/1986646378/plib_evsys.o
-                0x00001c36                EVSYS_Initialize
+                0x0000168e        0x2 build/default/production/_ext/1986646378/plib_evsys.o
+                0x0000168e                EVSYS_Initialize
 
-.text.datastreamer_init%101
-                0x00001d70        0x2
+.text.datastreamer_init%98
+                0x00001b1e        0x2
  .text.datastreamer_init
-                0x00001d70        0x2 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
-                0x00001d70                datastreamer_init
+                0x00001b1e        0x2 build/default/production/_ext/1662611032/datastreamer_UART_sam.o
+                0x00001b1e                datastreamer_init
+
+.text.NonMaskableInt_Handler%99
+                0x00001bae        0x2
+ .text.NonMaskableInt_Handler
+                0x00001bae        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x00001bae                NonMaskableInt_Handler
+
+.text.HardFault_Handler%100
+                0x00001c36        0x2
+ .text.HardFault_Handler
+                0x00001c36        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x00001c36                HardFault_Handler
+
+.text.Dummy_App_Func%101
+                0x00001d70        0x2
+ .text.Dummy_App_Func
+                0x00001d70        0x2 build/default/production/_ext/1171490990/startup_xc32.o
+                0x00001d70                _on_reset
+                0x00001d70                _on_bootstrap
+                0x00001d70                __xc32_on_reset
+                0x00001d70                Dummy_App_Func
+                0x00001d70                __xc32_on_bootstrap
 
 .text.Dummy_Handler%102
                 0x00001d72        0x2

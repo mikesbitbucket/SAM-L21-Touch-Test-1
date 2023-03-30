@@ -156,7 +156,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: RECAL_100/ RECAL_50 / RECAL_25 / RECAL_12_5 / RECAL_6_25 / MAX_RECAL
  * Default value: RECAL_100.
  */
-#define DEF_ANTI_TCH_RECAL_THRSHLD RECAL_100
+#define DEF_ANTI_TCH_RECAL_THRSHLD RECAL_50
 
 /* Rate at which sensor reference value is adjusted towards sensor signal value
  * when signal value is greater than reference.
@@ -164,7 +164,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0-255
  * Default value: 20u = 4 seconds.
  */
-#define DEF_TCH_DRIFT_RATE 20
+#define DEF_TCH_DRIFT_RATE 10
 
 /* Rate at which sensor reference value is adjusted towards sensor signal value
  * when signal value is less than reference.
@@ -179,7 +179,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0-255
  * Default value: 20u = 4 seconds.
  */
-#define DEF_DRIFT_HOLD_TIME 20
+#define DEF_DRIFT_HOLD_TIME 10
 
 /* Set mode for additional sensor measurements based on touch activity.
  * Range: REBURST_NONE / REBURST_UNRESOLVED / REBURST_ALL
@@ -191,7 +191,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
  * Range: 0-255
  * Default value: 0
  */
-#define DEF_MAX_ON_DURATION 0
+#define DEF_MAX_ON_DURATION 30
 
 
 
