@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: default
+folderName: SAML21_Touch_Demo1
+frameworkPath: C:\Users\Mike\Harmony3
+processor: ATSAML21J18B
+projectName: SAML21_Touch_Demo1
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: dev_packs\Microchip\SAML21_DFP\3.6.105\saml21b\atdf\ATSAML21J18B.atdf
