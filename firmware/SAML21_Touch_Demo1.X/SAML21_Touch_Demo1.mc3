@@ -424,7 +424,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BACKUP_CLOCK_FREQUENCY&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;2000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;6000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -436,7 +436,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_CLOCK_DFLL_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
-      &lt;User dnOrder=&quot;1&quot; value=&quot;false&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -447,7 +447,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_CLOCK_OSC16M_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -465,11 +465,44 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CONFIG_CLOCK_RTC_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CONFIG_CLOCK_RTC_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CONF_CLOCK_OSC32K_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CONF_CLOCK_OSC32K_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CONF_CLOCK_XOSC32K_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CONF_CLOCK_XOSC32K_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CPU_CLOCK_FREQUENCY"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;CPU_CLOCK_FREQUENCY&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;16000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;48000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -480,7 +513,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DFLL_CLOCK_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;48000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -491,7 +524,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_0_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;16000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;48000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -503,7 +536,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_0_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;3&quot;/&gt;
-      &lt;User dnOrder=&quot;1&quot; value=&quot;1&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;3&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -514,7 +547,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_1_DIV&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;4&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;12&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -525,7 +558,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_1_DIVIDER_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;4&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;12&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -547,7 +580,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_1_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;3&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -657,7 +690,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_21_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;16000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;48000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -712,7 +745,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;LOWPOWER_CLOCK_FREQUENCY&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;16000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;48000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -833,7 +866,40 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;OSC16M_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;16000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="OSC1K_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;OSC1K_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="OSC32K_EN1K"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;OSC32K_EN1K&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="OSC32K_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;OSC32K_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1642,6 +1708,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="RTC_CLOCK_FREQUENCY"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;RTC_CLOCK_FREQUENCY&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1024&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="RTC_INTERRUPT_ENABLE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;RTC_INTERRUPT_ENABLE&quot;&gt;
@@ -1701,7 +1778,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM3_CORE_CLOCK_FREQUENCY&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;16000000&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;48000000&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1756,7 +1833,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;SYSTICK_PERIOD&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x3E80&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0xBB80&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1768,7 +1845,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;SYSTICK_PERIOD_MS&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Float dnOrder=&quot;0&quot; id=&quot;max&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;1048.5759&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;349.5253&lt;/Value&gt;
       &lt;/Float&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;/&gt;
@@ -1782,6 +1859,50 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;SYSTICK_PERIOD_US&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1000&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="XOSC1K_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;XOSC1K_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="XOSC32K_EN1K"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;XOSC32K_EN1K&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="XOSC32K_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;XOSC32K_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="XOSC32K_OSCILLATOR_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;XOSC32K_OSCILLATOR_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1902,7 +2023,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_DIGI_FILT_GAIN0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_DIGI_FILT_GAIN0&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -19393,7 +19516,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_SENSOR_DET_THRESHOLD0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD0&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;20&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -39534,7 +39659,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;nvmctrl&gt;
   &lt;nvmctrl dnOrder=&quot;0&quot; id=&quot;NVM_RWS&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;nvmctrl&quot; value=&quot;0&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;nvmctrl&quot; value=&quot;2&quot;/&gt;
     &lt;/Values&gt;
   &lt;/nvmctrl&gt;
 &lt;/nvmctrl&gt;
@@ -40882,7 +41007,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;I2CM_BAUD&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;74&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;232&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
@@ -41352,7 +41477,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;SPI_BAUD_REG_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;7&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;23&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
@@ -41554,7 +41679,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom3&gt;
   &lt;sercom3 dnOrder=&quot;0&quot; id=&quot;USART_BAUD_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;57986&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom3&quot; value=&quot;63019&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sercom3&gt;
 &lt;/sercom3&gt;
@@ -42072,7 +42197,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clock\plib_clock.c</file>
-         <hash>4fe369e3983e845ce3b5ffab24bad0388a2cc1c1309039158615cafb2b20babf</hash>
+         <hash>eadcfd4ab82b572e707e08f2dbbfde9c63cc584d0eb551113a9e98cc91214e00</hash>
       </entry>
       <entry>
          <file>..\src\config\default\interrupts.c</file>
@@ -42132,7 +42257,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\touch\touch.h</file>
-         <hash>073cd6723ca0aefd6c21f43e481b356101ebbb4be7697ad910ed19c05b3d59ed</hash>
+         <hash>35a198305172e3b3e6b1ddbbf43e12d3c116eab72722ea48503102331cd5a36f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\eic.h</file>
@@ -42144,7 +42269,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>0077b77f623ed3b6ddbb301cc9f53913ab903e233b9736bffcd07e3391c1184c</hash>
+         <hash>ab6f363dc6978fa96d7ac0736f1647d98df6474db7a58f3e2a2e83bf8ba4c282</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
@@ -42219,12 +42344,12 @@
          <hash>cee0d463df91c253208968023ef88e54da2fec9deb95072987ca3483978ab7be</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\peripheral\pm\plib_pm.c</file>
-         <hash>e578d4cd062a5146385d78d6a87cb74ed9cbf07404af5104ecbbcfb85a443dbd</hash>
-      </entry>
-      <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\gclk.h</file>
          <hash>34c451887b1412432712bc9d3ccf207418af7499289bee8ed8e9c9099dbd9163</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\pm\plib_pm.c</file>
+         <hash>e578d4cd062a5146385d78d6a87cb74ed9cbf07404af5104ecbbcfb85a443dbd</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\pio\saml21j18b.h</file>
@@ -42420,7 +42545,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.c</file>
-         <hash>f0f3c17f4e675039551bb651d33118559ad6fcddd30e0d1f2e3ebcc62c151226</hash>
+         <hash>87952e8aa7f9351c0b2da50d98bf8419e604b2a5907555e745f51cf9af8da0f8</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\dmac.h</file>
@@ -42432,7 +42557,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>15f4e1e3d830540e625014adbb9b7d6ce0119e2e7fb94dccf6363de62fd8bded</hash>
+         <hash>b3b40489b9204a2dc25bfc4a935744a89d74c03ce1fdf9674e45a1cdae14016a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc0.h</file>

@@ -117,7 +117,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define NODE_0_PARAMS                                                                                               \
 {                                                                                                                  \
-   X_NONE, Y(8), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_1), FILTER_LEVEL_16                   \
+   X_NONE, Y(8), PRSC_DIV_SEL_4, NODE_GAIN(GAIN_1, GAIN_2), FILTER_LEVEL_16                   \
 }
 
 /**********************************************************/
