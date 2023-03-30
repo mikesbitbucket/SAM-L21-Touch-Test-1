@@ -90,13 +90,13 @@ build/default/production/_ext/1171490990/exceptions.o: \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
  ../src/config/default/peripheral/pm/plib_pm.h \
+ ../src/config/default/peripheral/rtc/plib_rtc.h \
  ../src/config/default/touch/touch.h \
  ../src/config/default/touch/touch_api_ptc.h \
  ../src/config/default/touch/qtm_common_components_api.h \
  ../src/config/default/touch/qtm_acq_saml21_0x0026_api.h \
  ../src/config/default/touch/qtm_touch_key_0x0002_api.h \
  ../src/config/default/touch/qtm_freq_hop_0x0006_api.h \
- ../src/config/default/peripheral/rtc/plib_rtc.h \
  ../src/config/default/bsp/bsp.h
 
 ../src/config/default/interrupts.h:
@@ -283,6 +283,8 @@ build/default/production/_ext/1171490990/exceptions.o: \
 
 ../src/config/default/peripheral/pm/plib_pm.h:
 
+../src/config/default/peripheral/rtc/plib_rtc.h:
+
 ../src/config/default/touch/touch.h:
 
 ../src/config/default/touch/touch_api_ptc.h:
@@ -294,7 +296,5 @@ build/default/production/_ext/1171490990/exceptions.o: \
 ../src/config/default/touch/qtm_touch_key_0x0002_api.h:
 
 ../src/config/default/touch/qtm_freq_hop_0x0006_api.h:
-
-../src/config/default/peripheral/rtc/plib_rtc.h:
 
 ../src/config/default/bsp/bsp.h:

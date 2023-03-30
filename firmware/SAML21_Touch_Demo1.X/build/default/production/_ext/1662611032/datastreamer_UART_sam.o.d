@@ -96,9 +96,8 @@ build/default/production/_ext/1662611032/datastreamer_UART_sam.o: \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
  ../src/config/default/peripheral/pm/plib_pm.h \
- ../src/config/default/touch/touch.h \
  ../src/config/default/peripheral/rtc/plib_rtc.h \
- ../src/config/default/bsp/bsp.h
+ ../src/config/default/touch/touch.h ../src/config/default/bsp/bsp.h
 
 ../src/config/default/touch/datastreamer/datastreamer.h:
 
@@ -296,8 +295,8 @@ build/default/production/_ext/1662611032/datastreamer_UART_sam.o: \
 
 ../src/config/default/peripheral/pm/plib_pm.h:
 
-../src/config/default/touch/touch.h:
-
 ../src/config/default/peripheral/rtc/plib_rtc.h:
+
+../src/config/default/touch/touch.h:
 
 ../src/config/default/bsp/bsp.h:

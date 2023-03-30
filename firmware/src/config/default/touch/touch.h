@@ -135,7 +135,7 @@ SUBSTITUTE  GOODS,  TECHNOLOGY,  SERVICES,  OR  ANY  CLAIMS  BY  THIRD   PARTIES
 
 #define KEY_0_PARAMS                                                                                            \
 {                                                                                                              \
-    20, HYST_25, NO_AKS_GROUP                       \
+    25, HYST_25, NO_AKS_GROUP                       \
 }
 
 

@@ -19517,7 +19517,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD0&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;20&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;25&quot;/&gt;
     &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
@@ -42257,7 +42257,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\touch\touch.h</file>
-         <hash>35a198305172e3b3e6b1ddbbf43e12d3c116eab72722ea48503102331cd5a36f</hash>
+         <hash>27b0673c00fcb8ece8472daa3975419f4739b3579dfd72622aa8f21720385761</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\eic.h</file>
@@ -42344,12 +42344,12 @@
          <hash>cee0d463df91c253208968023ef88e54da2fec9deb95072987ca3483978ab7be</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\gclk.h</file>
-         <hash>34c451887b1412432712bc9d3ccf207418af7499289bee8ed8e9c9099dbd9163</hash>
-      </entry>
-      <entry>
          <file>..\src\config\default\peripheral\pm\plib_pm.c</file>
          <hash>e578d4cd062a5146385d78d6a87cb74ed9cbf07404af5104ecbbcfb85a443dbd</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\gclk.h</file>
+         <hash>34c451887b1412432712bc9d3ccf207418af7499289bee8ed8e9c9099dbd9163</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\pio\saml21j18b.h</file>
@@ -42557,7 +42557,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>b3b40489b9204a2dc25bfc4a935744a89d74c03ce1fdf9674e45a1cdae14016a</hash>
+         <hash>8026fb60486d6c9db6d8de38f534dfb2d6c00a7a28473709f2393920e5ed1c79</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc0.h</file>
