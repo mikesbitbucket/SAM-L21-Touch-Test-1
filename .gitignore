@@ -9,7 +9,6 @@
 # Updated April 9, 2022
 
 # MPLAB X IDE (Netbeans) specific
-/firmware/
 **/*.X/~*.*
 **/*.X/build/
 **/*.X/debug/
@@ -26,6 +25,7 @@
 **/*.X/nbproject/*.mk
 **/*.X/nbproject/*.bash
 **/*.X/nbproject/Makefile-genesis.properties
+
 
 # Object files and MPLab Generated files in the dist folder
 *.o
