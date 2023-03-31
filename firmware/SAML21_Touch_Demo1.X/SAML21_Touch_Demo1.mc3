@@ -395,7 +395,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;513&quot; canvasWidth=&quot;372&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;GraphSettings canvasHeight=&quot;547&quot; canvasWidth=&quot;672&quot; dnOrder=&quot;0&quot;/&gt;
     &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_SAM_L21_Xplained_Pro&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
@@ -403,12 +403,12 @@
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;core&quot; x=&quot;38&quot; y=&quot;233&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;dfp&quot; x=&quot;177&quot; y=&quot;56&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;evsys&quot; x=&quot;30&quot; y=&quot;100&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;lib_qtouch&quot; x=&quot;363&quot; y=&quot;284&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;lib_qtouch&quot; x=&quot;449&quot; y=&quot;306&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;nvmctrl&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;pm&quot; x=&quot;27&quot; y=&quot;154&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;ptc&quot; x=&quot;194&quot; y=&quot;410&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;rtc&quot; x=&quot;189&quot; y=&quot;312&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;sercom3&quot; x=&quot;193&quot; y=&quot;213&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;ptc&quot; x=&quot;209&quot; y=&quot;453&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;rtc&quot; x=&quot;206&quot; y=&quot;350&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;sercom3&quot; x=&quot;210&quot; y=&quot;250&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -675,6 +675,50 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="GCLK_ID_19_CHEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_19_CHEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="GCLK_ID_19_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_19_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="GCLK_ID_20_CHEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_20_CHEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="GCLK_ID_20_FREQ"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_20_FREQ&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="GCLK_ID_21_CHEN"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_21_CHEN&quot;&gt;
@@ -774,6 +818,39 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_10_0_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_10_0_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_10_0_HANDLER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_10_0_HANDLER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;SERCOM2_Handler&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_10_0_HANDLER_LOCK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_10_0_HANDLER_LOCK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_11_0_ENABLE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_11_0_ENABLE&quot;&gt;
@@ -862,6 +939,39 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_9_0_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_9_0_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_9_0_HANDLER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_9_0_HANDLER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;SERCOM1_Handler&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NVIC_9_0_HANDLER_LOCK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;NVIC_9_0_HANDLER_LOCK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="OSC16M_FREQ"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;OSC16M_FREQ&quot;&gt;
@@ -939,11 +1049,56 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_17_FUNCTION_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_17_FUNCTION_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;DVRT_Tx&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_17_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_17_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;lib_qtouch&quot; value=&quot;&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;SERCOM2_PAD0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_17_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_17_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_17_PERIPHERAL_FUNCTION"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_17_PERIPHERAL_FUNCTION&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;D&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_FUNCTION_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_FUNCTION_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;DVRT_Rx&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -955,6 +1110,29 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;lib_qtouch&quot; value=&quot;&quot;/&gt;
+      &lt;User dnOrder=&quot;1&quot; value=&quot;SERCOM2_PAD1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_18_PERIPHERAL_FUNCTION"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_18_PERIPHERAL_FUNCTION&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;D&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1153,6 +1331,24 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_DIR"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_DIR&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_FUNCTION_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_FUNCTION_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_FUNCTION_TYPE&quot;&gt;
@@ -1164,12 +1360,115 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_INEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_INEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_LAT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_LAT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_PERIPHERAL_FUNCTION"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_PERIPHERAL_FUNCTION&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_37_PULLEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_37_PULLEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_DIR"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_DIR&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;lib_qtouch&quot; value=&quot;&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_INEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_INEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_LAT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_LAT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_PERIPHERAL_FUNCTION"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_PERIPHERAL_FUNCTION&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_38_PULLEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_38_PULLEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -1433,6 +1732,28 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_18"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_18&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;PA18&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_19"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_19&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;PA19&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_2"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_2&quot;&gt;
@@ -1466,11 +1787,55 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_8"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_8&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;PA08&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_9"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_9&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;PA09&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG10"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG10&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG18"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG18&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG19"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG19&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1510,11 +1875,55 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG8"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG8&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG9"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG9&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_10_USED"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_10_USED&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_18_USED"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_18_USED&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_19_USED"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_19_USED&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1554,6 +1963,28 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_8_USED"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_8_USED&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_9_USED"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_9_USED&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX1"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX1&quot;&gt;
@@ -1576,11 +2007,33 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX4"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX4&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x33&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX5"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX5&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX9"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX9&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1763,6 +2216,122 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM1_CORE_CLOCK_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM1_CORE_CLOCK_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM1_CORE_CLOCK_FREQUENCY"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM1_CORE_CLOCK_FREQUENCY&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM1_INTERRUPT_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM1_INTERRUPT_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM1_INTERRUPT_ENABLE_UPDATE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM1_INTERRUPT_ENABLE_UPDATE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM1_INTERRUPT_HANDLER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM1_INTERRUPT_HANDLER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM1_INTERRUPT_HANDLER_LOCK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM1_INTERRUPT_HANDLER_LOCK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM2_CORE_CLOCK_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM2_CORE_CLOCK_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM2_CORE_CLOCK_FREQUENCY"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM2_CORE_CLOCK_FREQUENCY&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM2_INTERRUPT_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM2_INTERRUPT_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM2_INTERRUPT_ENABLE_UPDATE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM2_INTERRUPT_ENABLE_UPDATE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM2_INTERRUPT_HANDLER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM2_INTERRUPT_HANDLER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM2_INTERRUPT_HANDLER_LOCK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM2_INTERRUPT_HANDLER_LOCK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="SERCOM3_CORE_CLOCK_ENABLE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;SERCOM3_CORE_CLOCK_ENABLE&quot;&gt;
@@ -1934,7 +2503,14 @@
           &lt;/Boolean&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
-      &lt;DirectDependency dnOrder=&quot;1&quot; id=&quot;Touch_timer&quot;&gt;
+      &lt;DirectDependency dnOrder=&quot;1&quot; id=&quot;Touch_sercom_Krono&quot;&gt;
+        &lt;Attributes dnOrder=&quot;0&quot;&gt;
+          &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+            &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+          &lt;/Boolean&gt;
+        &lt;/Attributes&gt;
+      &lt;/DirectDependency&gt;
+      &lt;DirectDependency dnOrder=&quot;2&quot; id=&quot;Touch_timer&quot;&gt;
         &lt;Attributes dnOrder=&quot;0&quot;&gt;
           &lt;String dnOrder=&quot;0&quot; id=&quot;targetComponentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;rtc&lt;/Value&gt;
@@ -1944,7 +2520,7 @@
           &lt;/String&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
-      &lt;DirectDependency dnOrder=&quot;2&quot; id=&quot;lib_acquire&quot;&gt;
+      &lt;DirectDependency dnOrder=&quot;3&quot; id=&quot;lib_acquire&quot;&gt;
         &lt;Attributes dnOrder=&quot;0&quot;&gt;
           &lt;String dnOrder=&quot;0&quot; id=&quot;targetComponentID&quot;&gt;
             &lt;Value dnOrder=&quot;0&quot;&gt;ptc&lt;/Value&gt;
@@ -19517,7 +20093,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_DET_THRESHOLD0&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;25&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;20&quot;/&gt;
     &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
@@ -21102,7 +21678,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="DEF_SENSOR_HYST0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;DEF_SENSOR_HYST0&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -26107,7 +26685,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="ENABLE_TOUCH_TUNE_WITH_PLUGIN"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;ENABLE_TOUCH_TUNE_WITH_PLUGIN&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -39562,7 +40142,12 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_SERCOM_KRONO_INSTANCE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
   &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_SERCOM_KRONO_INSTANCE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;/&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -39574,6 +40159,32 @@
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;lib_qtouch&quot; value=&quot;RTC&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_TUNE_WITH_PLUGIN_HEADER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_TUNE_WITH_PLUGIN_HEADER&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+  &lt;/lib_qtouch&gt;
+&lt;/lib_qtouch&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="lib_qtouch" name="TOUCH_TUNE_WITH_PLUGIN_SOURCE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;lib_qtouch&gt;
+  &lt;lib_qtouch dnOrder=&quot;0&quot; id=&quot;TOUCH_TUNE_WITH_PLUGIN_SOURCE&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
   &lt;/lib_qtouch&gt;
 &lt;/lib_qtouch&gt;
 </value>
@@ -42034,206 +42645,78 @@
 </value>
       </entry>
    </tokenMap>
-   <generatedFileHashHistoryMap class="java.util.TreeMap">
+   <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
-         <file>..\src\config\default\ATSAML21J18B.ld</file>
-         <hash>54be17d2c7330c73f5653dc4f6280a9b958c685194aa33062d8ce6148f3b73ed</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\supc.h</file>
+         <hash>ab1a8b8d13a8e445166761fe0bf87d773fc0140a7f91d58eb5ec5c6e2144f17e</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\bsp\bsp.c</file>
-         <hash>5cb21f9aaac63012c30d9eb9e34ab1e613e4c9f515cd7516cedbc9701ff6a16d</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom4.h</file>
+         <hash>dd14e51c43beb8e2763fe1f5a39d5315df89cf695be837c89c53f3a82e52eba7</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\bsp\bsp.h</file>
-         <hash>85accc376485b86a2a5b27c95f60739a54de3852279f467faf14e3004c7409ab</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\ac.h</file>
+         <hash>0155b7bf4ff4725082fbbf9e7ae2f38aa25ef7ddba90ed7f43398217fc3c89d0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\definitions.h</file>
-         <hash>8026fb60486d6c9db6d8de38f534dfb2d6c00a7a28473709f2393920e5ed1c79</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\aes.h</file>
+         <hash>65a40107e591a2b9b0a26544c701b38b8df33d6ed629118f1dcf9ace5b7f2bf0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device.h</file>
-         <hash>4743496197b221e13c4d5745b6e16d16ce85c123b320178946f5a20b81743ac2</hash>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
+         <hash>6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_cache.h</file>
-         <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\tc.h</file>
+         <hash>bfbdf19879896c5e024c49d15da6ede6a58bbe650bd1271479ffb97ae9047a1f</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\device_vectors.h</file>
-         <hash>f204c5e7d91ffccbd068d3a12efce1303c42eeb5f33e542d5309a60b730b40ed</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom0.h</file>
+         <hash>9adec0eb771d4d1d57a574a84a505c3ba942261d6ff0649c5f231b31d92f84e0</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\exceptions.c</file>
-         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
+         <hash>3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\initialization.c</file>
-         <hash>c8ba983d6c6373192819367f0247ec0ec790fcdbe839db98745b9264c4194e27</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\dsu.h</file>
+         <hash>8cf78f9b47442ef42c4fa3620bb6e35bb4620f7bb8914e07e669233ff8a7eec3</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.c</file>
-         <hash>202eb895cf2994a1c11b637894c36dd2ab15a52dab7f25c207e56eccc51e09fb</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\ac.h</file>
+         <hash>5b3b3742724a6d60d4007938d5b2239103c01d65a70b16b85dcd331d3cac039b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\interrupts.h</file>
-         <hash>295b76b3dc21e70c33b52f8aef5b1a3e8af3f0690946a3de519af7ce160c8e10</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\mclk.h</file>
+         <hash>62ce31a3f95022e1ded3227bab37ce619b00931fdeb747db2f4823c4343fbba9</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\libc_syscalls.c</file>
-         <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\clock\plib_clock.c</file>
-         <hash>eadcfd4ab82b572e707e08f2dbbfde9c63cc584d0eb551113a9e98cc91214e00</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\clock\plib_clock.h</file>
-         <hash>5946c10fc7c152286b6e389905cafd7883bdf730b74ef1aae08dbee0907add30</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.c</file>
-         <hash>7bb3bc0d60c4cf18638d76d3dfe9e5b13d2915d09e6a8a7bc4b5faae870c8f48</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\evsys\plib_evsys.h</file>
-         <hash>f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.c</file>
-         <hash>28f07e90905efbac8bad141128f91ef4f41df58bc4303ba34afe51356ff086ac</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\nvic\plib_nvic.h</file>
-         <hash>81e813a093101d546799e00723cbf7245e2d18471fa51c8d130c5809cecca03e</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>ab6f363dc6978fa96d7ac0736f1647d98df6474db7a58f3e2a2e83bf8ba4c282</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\nvmctrl\plib_nvmctrl.h</file>
-         <hash>3706575d02d502967b3a77c5d6c33f26721148603934715fcbd98c62d20a2663</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\pm\plib_pm.c</file>
-         <hash>e578d4cd062a5146385d78d6a87cb74ed9cbf07404af5104ecbbcfb85a443dbd</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\pm\plib_pm.h</file>
-         <hash>643429281888e9ac6543abed62f23e4f2a882ef6f2fb4c42ee61af83cc953a22</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\port\plib_port.c</file>
-         <hash>58859b8824949ab4f06c7b0542082c3a42930d74cd3b7c1ed2f9aeb94afd86ed</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\port\plib_port.h</file>
-         <hash>701f6d8e37e08e9a52b52e93ffac3b88818bc473333e5360bf74245f903a5c97</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\rtc\plib_rtc.h</file>
-         <hash>92e9a13ceda691e011ad7efff84d616e8466f744723f8135850fc171fd53ac3b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\rtc\plib_rtc_timer.c</file>
-         <hash>09a2d1aa40836e93efc5bd87deb1598cb990b2759e6503622747e44851c01335</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.c</file>
-         <hash>87952e8aa7f9351c0b2da50d98bf8419e604b2a5907555e745f51cf9af8da0f8</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.h</file>
-         <hash>b232188f8cea4bbc1a1e886a3fe9315af5a0485353715b20535548bae3b3f033</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>1dbf674e2bc9708afe2cacc75141707c42b89f166e0f1d6f81c04b1b2fa166b8</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\pin_configurations.csv</file>
-         <hash>f2ca21be102ce14d5da19003ae30b53db7f0edf62a6f82ea953fd70e67faa5c1</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\stdio\xc32_monitor.c</file>
-         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.db</file>
-         <hash>acd323b0f9d8fdaecadefc2bbc79e4457c93f4e62cdd29317abe9467d8262381</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.ds</file>
-         <hash>027f88165652632f0cd98f927fd5a49fee9f32b35a8f01356f00961a62d3e7f4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.sc</file>
-         <hash>1511d8932aaeee7d4e49839b24414f54490f0859dd04392b0700e8286adc4d10</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\datastreamer\datastreamer.h</file>
-         <hash>c243b302cdee8ec3bf3b2d378170b30861d621ee999f500a9d40cdb74ee58934</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\datastreamer\datastreamer_UART_sam.c</file>
-         <hash>fb37bb216e41f0b1d07e06615b716d42ce6b650726ff808a3a31c9133037eb1b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
-         <hash>0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a</file>
-         <hash>cee4068df9fa1c713dacf6b7ac164de83642186c50fe82f70470d25a2689d328</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\lib\qtm_saml21_acq_0x0026.X.a</file>
-         <hash>ce9c7249291f59991aab29debb026358216d2cb8756e8549dfbf24bfd740ede5</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
-         <hash>ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\qtm_acq_saml21_0x0026_api.h</file>
-         <hash>1c6c747db10b4791d63ca374c123b7f18bd626db532a3a59cceeadc59eadde3b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\default\touch\qtm_common_components_api.h</file>
-         <hash>cee4827d082a99d2c03004c420d91d548672760aaaed802b1e3b22dcc8a29ba5</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\aes.h</file>
+         <hash>9a25b3054f7d0fadc7d25264ac71d7e037bb512b53cdba54c2e294cfa6d73048</hash>
       </entry>
       <entry>
          <file>..\src\config\default\touch\qtm_freq_hop_0x0006_api.h</file>
          <hash>2235eaae22ca0ec808a50c31e79050a4b14408a247d0b868dde1f2330440dc65</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h</file>
-         <hash>fede0d96967d873ea9b246b2589d9af3d046d9de3aa3e0dd2090a35328d72d60</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\opamp.h</file>
+         <hash>f62ffaa036ba66430cd8bd37b4b1904b842a3887a0f426833fd04d4d2a52c91b</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\qtm_touch_key_0x0002_api.h</file>
-         <hash>f5fb6d6080df1ed77d350b05e797de5d191bbd2c041becf2dc2a4d6b120d728d</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\rstc.h</file>
+         <hash>837f6408ee4f2c6b67b86902f3b389db22b20ebabe597654da8cf153feb1fcd2</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch.c</file>
-         <hash>4f80636bbe85153746d0846ee7261c1c15538baf1ae69da4f48db62bc0a8dbf6</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc1.h</file>
+         <hash>a4c206e14f1c7fd5e8ae1fbbe36c0e253913823246a08c0dd283e69ff29e0c15</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch.h</file>
-         <hash>27b0673c00fcb8ece8472daa3975419f4739b3579dfd72622aa8f21720385761</hash>
+         <file>..\src\config\default\toolchain_specifics.h</file>
+         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
       </entry>
       <entry>
-         <file>..\src\config\default\touch\touch_api_ptc.h</file>
-         <hash>f5874af7684a75dcebed255945b755e62c53d514346c7aa89011efb39327872f</hash>
+         <file>..\src\config\default\peripheral\pm\plib_pm.h</file>
+         <hash>643429281888e9ac6543abed62f23e4f2a882ef6f2fb4c42ee61af83cc953a22</hash>
       </entry>
       <entry>
          <file>..\src\config\default\touch\touch_example.c</file>
@@ -42244,140 +42727,420 @@
          <hash>8bdb39ec57aee49f55c431b9b5ef24d51f355a921e1b32a82c883f4ca9334f5a</hash>
       </entry>
       <entry>
-         <file>..\src\main.c</file>
-         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\ac.h</file>
-         <hash>0155b7bf4ff4725082fbbf9e7ae2f38aa25ef7ddba90ed7f43398217fc3c89d0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\adc.h</file>
-         <hash>0b3b1e5fbd8cb9e2a8e31d0bb0fbcd90cb2e890e7bb7d9b7198f7bc27bd4c56d</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\aes.h</file>
-         <hash>65a40107e591a2b9b0a26544c701b38b8df33d6ed629118f1dcf9ace5b7f2bf0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\ccl.h</file>
-         <hash>893aa5f933aa5318766045582b05e35b59b84ab6797a0a3e99e4948895d83d33</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\dac.h</file>
-         <hash>d5a8caddcde4ed7451ae9adb888a6bfc191c91fe051c1db23cceedee3ba55851</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\dmac.h</file>
-         <hash>09519453ba1659a1566f5c8349e0fd29eb4f258fdb60e96338183957a3fb08aa</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\dsu.h</file>
-         <hash>8cf78f9b47442ef42c4fa3620bb6e35bb4620f7bb8914e07e669233ff8a7eec3</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\eic.h</file>
-         <hash>e65a80b94587bb93e1fe4d492655af64a91697f4b8a81777c6d5df2d067f7363</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\evsys.h</file>
-         <hash>10c0cdcd7d62c6c98e69606321a9188006df8719f72402b1c4e0c26da1ab577a</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\fuses.h</file>
-         <hash>fcb0a44540b845c39281bb02186a7c83b4109585e9db2ab6442c5222c59af1d8</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\gclk.h</file>
-         <hash>f31196dc4e43952d3ddc030ec398497e066ead61ad7315761e6a0c7c1c49a9b1</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\mclk.h</file>
-         <hash>62ce31a3f95022e1ded3227bab37ce619b00931fdeb747db2f4823c4343fbba9</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\mtb.h</file>
-         <hash>5ec26b3562c51d9ffcfd341f7e464ab3f5ad589bb415907200fd0ccc5d92f50a</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\nvmctrl.h</file>
-         <hash>57846065db9308646d292acfe3b3a8248d9bf42f5262b57d3521e0d174fb5fca</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\pm.h</file>
+         <hash>0f5133356b10a1174f5b6f2e337b5767ea046712f3771acdf372f354e88b5115</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\opamp.h</file>
          <hash>b4e1007fcbed5c141cc00625e8630924b80fd432ebe7d3c4a766a421cff33db1</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\osc32kctrl.h</file>
-         <hash>518fb1a9fad72c468fbf6206b8e1747de151c6b265b33b087e509952a7ecc591</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\oscctrl.h</file>
+         <hash>7071442fafe5b01b5ba89ae35c09ee7d24f3dbb93388deaff154696764146df8</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\oscctrl.h</file>
-         <hash>3f00cd963e61e9106571d4ed8d62bf0917125c6bc25f1893e11e02b15015ce67</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\ccl.h</file>
+         <hash>893aa5f933aa5318766045582b05e35b59b84ab6797a0a3e99e4948895d83d33</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\pac.h</file>
-         <hash>9ecc38a8a9fab43faeca7321403acbc9496d52d7a4678c3a38c0a4fc42f040cd</hash>
+         <file>..\src\config\default\peripheral\rtc\plib_rtc_timer.c</file>
+         <hash>09a2d1aa40836e93efc5bd87deb1598cb990b2759e6503622747e44851c01335</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\pm.h</file>
-         <hash>0f5133356b10a1174f5b6f2e337b5767ea046712f3771acdf372f354e88b5115</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\rtc.h</file>
+         <hash>10544a1752446bc03dda9c57f0571df3b8a152d3342d2215894d4f80d161fd5a</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\mtb.h</file>
+         <hash>d9d6f7ec31a710eed411160b419f57f8610b686da77d719f0dae343bb74a3999</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\port.h</file>
          <hash>b2264461e2937add6365bee9c20e0335eec8bc935713720013e7520eca4c4575</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\ptc.h</file>
-         <hash>b67e756d0145e1ab434c4e5e0e841b895bd6afe99e1593c1e7a5a6c36de72036</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\rstc.h</file>
-         <hash>d34f6706c625fff23f7d40cc92f1eb68fbc99d33c4af35f224d1560137904b5d</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\rtc.h</file>
-         <hash>f7137573b07c329cc30550ead3e3870ac538675eb2070b7a12f45ce1491effaa</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\sercom.h</file>
-         <hash>bf211976af71549a688550c6f7ecaf166c3b46f1cda533dbcb9dee69b3e4c9dc</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\supc.h</file>
-         <hash>ab1a8b8d13a8e445166761fe0bf87d773fc0140a7f91d58eb5ec5c6e2144f17e</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\tc.h</file>
-         <hash>bfbdf19879896c5e024c49d15da6ede6a58bbe650bd1271479ffb97ae9047a1f</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\tcc.h</file>
-         <hash>ce417c3d76d3a1ca7d5bd7d2924068dc73f0fa87ae30f92d3858d5d18a22794e</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\nvmctrl.h</file>
+         <hash>57846065db9308646d292acfe3b3a8248d9bf42f5262b57d3521e0d174fb5fca</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\trng.h</file>
          <hash>54f3309addcf3dddd451fad5363785778f6612ae378a78ba86a1874bad4555ac</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\component\usb.h</file>
-         <hash>a5fa7cc73f70611542a280e0bdbfd6ead58a374a0356858904b8e4a4deaa6405</hash>
+         <file>..\src\config\default\touch\datastreamer\datastreamer_UART_sam.c</file>
+         <hash>fb37bb216e41f0b1d07e06615b716d42ce6b650726ff808a3a31c9133037eb1b</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
+         <hash>a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\rtc.h</file>
+         <hash>f7137573b07c329cc30550ead3e3870ac538675eb2070b7a12f45ce1491effaa</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.ds</file>
+         <hash>027f88165652632f0cd98f927fd5a49fee9f32b35a8f01356f00961a62d3e7f4</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\fuses.h</file>
+         <hash>50662ae8fdec0bb0b1e108f30c09e71b6ae1d92c0003c1c837158e6865ed188d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\lib\qtm_freq_hop_cm0p_0x0006.X.a</file>
+         <hash>cee4068df9fa1c713dacf6b7ac164de83642186c50fe82f70470d25a2689d328</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\interrupts.h</file>
+         <hash>295b76b3dc21e70c33b52f8aef5b1a3e8af3f0690946a3de519af7ce160c8e10</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\clock\plib_clock.h</file>
+         <hash>5946c10fc7c152286b6e389905cafd7883bdf730b74ef1aae08dbee0907add30</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\device_vectors.h</file>
+         <hash>f204c5e7d91ffccbd068d3a12efce1303c42eeb5f33e542d5309a60b730b40ed</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\dsu.h</file>
+         <hash>baae4fef1648171bf2b73a7d004ed5219bf16be99a162d3f8d8bab733fadcf1e</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\clock\plib_clock.c</file>
+         <hash>eadcfd4ab82b572e707e08f2dbbfde9c63cc584d0eb551113a9e98cc91214e00</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\interrupts.c</file>
+         <hash>202eb895cf2994a1c11b637894c36dd2ab15a52dab7f25c207e56eccc51e09fb</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\fuses.h</file>
+         <hash>fcb0a44540b845c39281bb02186a7c83b4109585e9db2ab6442c5222c59af1d8</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\mtb.h</file>
+         <hash>5ec26b3562c51d9ffcfd341f7e464ab3f5ad589bb415907200fd0ccc5d92f50a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.db</file>
+         <hash>acd323b0f9d8fdaecadefc2bbc79e4457c93f4e62cdd29317abe9467d8262381</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\port\plib_port.h</file>
+         <hash>fe7489f6f0f2282838d42736a857f56dcafbcf571806a9efdafbb2f7893938e7</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\datastreamer\datastreamer.h</file>
+         <hash>c243b302cdee8ec3bf3b2d378170b30861d621ee999f500a9d40cdb74ee58934</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\qtm_freq_hop_auto_0x0004_api.h</file>
+         <hash>fede0d96967d873ea9b246b2589d9af3d046d9de3aa3e0dd2090a35328d72d60</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\qtm_common_components_api.h</file>
+         <hash>cee4827d082a99d2c03004c420d91d548672760aaaed802b1e3b22dcc8a29ba5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom5.h</file>
+         <hash>6797ca473300f7fd77b71aa19076f530c67fcb834c85576fb599787db47962ce</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\tcc.h</file>
+         <hash>ce417c3d76d3a1ca7d5bd7d2924068dc73f0fa87ae30f92d3858d5d18a22794e</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\eic.h</file>
+         <hash>561e9bc8d417aa8c54f6ceda06992fa4cdae06737c50bc038fdc6a1dd38bf552</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\ptc.h</file>
+         <hash>f4fcfd8d5a6925fb3dd64a2ec9f2255f76e3b94186805938bdd2681d45855e99</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\nvmctrl\plib_nvmctrl.h</file>
+         <hash>3706575d02d502967b3a77c5d6c33f26721148603934715fcbd98c62d20a2663</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom1.h</file>
+         <hash>24e7d2fba7df6ff52ece1924e7f0476336fefe6f57f2cefb03065c8e4a9f1a0d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\touch.h</file>
+         <hash>35a198305172e3b3e6b1ddbbf43e12d3c116eab72722ea48503102331cd5a36f</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\eic.h</file>
+         <hash>e65a80b94587bb93e1fe4d492655af64a91697f4b8a81777c6d5df2d067f7363</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\ptc.h</file>
+         <hash>b67e756d0145e1ab434c4e5e0e841b895bd6afe99e1593c1e7a5a6c36de72036</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\nvmctrl\plib_nvmctrl.c</file>
+         <hash>ab6f363dc6978fa96d7ac0736f1647d98df6474db7a58f3e2a2e83bf8ba4c282</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
+         <hash>de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\touch.c</file>
+         <hash>4f80636bbe85153746d0846ee7261c1c15538baf1ae69da4f48db62bc0a8dbf6</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\component\wdt.h</file>
          <hash>248ad5e2713a3478d3703e15f2a1ad5d18d34de35dbc7a66082bb514d87eadc5</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\ac.h</file>
-         <hash>5b3b3742724a6d60d4007938d5b2239103c01d65a70b16b85dcd331d3cac039b</hash>
+         <file>..\src\config\default\peripheral\port\plib_port.c</file>
+         <hash>cef21f2b7a39a74bac026a99b0ddf8575f7835daed2eafc211405a996b1ca520</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
+         <hash>d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc2.h</file>
+         <hash>5901d2738db692fccf39d5f98ae6cc3364424bec9f76b33d0b09acb91f1d2c35</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\pac.h</file>
+         <hash>9ecc38a8a9fab43faeca7321403acbc9496d52d7a4678c3a38c0a4fc42f040cd</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\usb.h</file>
+         <hash>a5fa7cc73f70611542a280e0bdbfd6ead58a374a0356858904b8e4a4deaa6405</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
+         <hash>11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\rtc\plib_rtc.h</file>
+         <hash>92e9a13ceda691e011ad7efff84d616e8466f744723f8135850fc171fd53ac3b</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\pac.h</file>
+         <hash>300f6e349b532fd148c05f887fd8fae3fcfe20b7ef296269bdece1ca5c13a4d7</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\ATSAML21J18B.ld</file>
+         <hash>54be17d2c7330c73f5653dc4f6280a9b958c685194aa33062d8ce6148f3b73ed</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\pin_configurations.csv</file>
+         <hash>baf664c6b3b9ce4e1b7f38af089b153973b686fc79f2867d9ce1891271907736</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\usb.h</file>
+         <hash>ca8d0c46e9f9386307b53df502f1cc48a9d8a019b07a2b94890cbbbf907298fe</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\initialization.c</file>
+         <hash>c8ba983d6c6373192819367f0247ec0ec790fcdbe839db98745b9264c4194e27</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
+         <hash>869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\saml21j18b.h</file>
+         <hash>aafb272731de4b20186045b2008dcf0403b1c4ed5f394622f651b7277e39c103</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\pm.h</file>
+         <hash>cee0d463df91c253208968023ef88e54da2fec9deb95072987ca3483978ab7be</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\gclk.h</file>
+         <hash>34c451887b1412432712bc9d3ccf207418af7499289bee8ed8e9c9099dbd9163</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\pm\plib_pm.c</file>
+         <hash>e578d4cd062a5146385d78d6a87cb74ed9cbf07404af5104ecbbcfb85a443dbd</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\pio\saml21j18b.h</file>
+         <hash>8b4c6aa98f9dbf47940d2bdfefd83f6bb47af45faf251dd5219674fc820f3e3c</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\device.h</file>
+         <hash>4743496197b221e13c4d5745b6e16d16ce85c123b320178946f5a20b81743ac2</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\mclk.h</file>
+         <hash>41da3fd432ea84d110a5b5287524fa6aa4d4e6cf913f9e4ec89b864a80f634ab</hash>
+      </entry>
+      <entry>
+         <file>..\src\main.c</file>
+         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\wdt.h</file>
+         <hash>27a9b39105bdd9e6973289a37c448a4fd3f55114e5698f8d6808740d4dbd8549</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc2.h</file>
+         <hash>7edcc82ef9d96109dba2084e0a63015669960550d098ad30cb99cbd9ed8c4cd3</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\dmac.h</file>
+         <hash>e1f980f412041838ba11ea64e6fd2b8e61a5dabe4a31c44d2cd57748bfd1e98a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\stdio\xc32_monitor.c</file>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\bsp\bsp.h</file>
+         <hash>85accc376485b86a2a5b27c95f60739a54de3852279f467faf14e3004c7409ab</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom2.h</file>
+         <hash>b76f3ab6704e55b9a57a1ad9486e3abaa9d6e2b64963aaab96c1c3985ef3d497</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\gclk.h</file>
+         <hash>f31196dc4e43952d3ddc030ec398497e066ead61ad7315761e6a0c7c1c49a9b1</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\startup_xc32.c</file>
+         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\bsp\bsp.c</file>
+         <hash>5cb21f9aaac63012c30d9eb9e34ab1e613e4c9f515cd7516cedbc9701ff6a16d</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc3.h</file>
+         <hash>0f4e88d336710ff48227159523014c5133bbadf032d131bbd1125c2f2a8185cf</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\nvic\plib_nvic.h</file>
+         <hash>81e813a093101d546799e00723cbf7245e2d18471fa51c8d130c5809cecca03e</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\adc.h</file>
+         <hash>0b3b1e5fbd8cb9e2a8e31d0bb0fbcd90cb2e890e7bb7d9b7198f7bc27bd4c56d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\qtm_acq_saml21_0x0026_api.h</file>
+         <hash>1c6c747db10b4791d63ca374c123b7f18bd626db532a3a59cceeadc59eadde3b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\nvic\plib_nvic.c</file>
+         <hash>28f07e90905efbac8bad141128f91ef4f41df58bc4303ba34afe51356ff086ac</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
+         <hash>2de01ae2556a38eb82c389de23c701805ec63308cfbcf3f84cb12141589b0858</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h</file>
+         <hash>f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\adc.h</file>
          <hash>40fe224a1df5ee066a13864705990d9a83798216d3501a68ea74b49b78642997</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\aes.h</file>
-         <hash>9a25b3054f7d0fadc7d25264ac71d7e037bb512b53cdba54c2e294cfa6d73048</hash>
+         <file>..\src\config\default\touch\touch_api_ptc.h</file>
+         <hash>f5874af7684a75dcebed255945b755e62c53d514346c7aa89011efb39327872f</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\lib\qtm_saml21_acq_0x0026.X.a</file>
+         <hash>ce9c7249291f59991aab29debb026358216d2cb8756e8549dfbf24bfd740ede5</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\device_cache.h</file>
+         <hash>e2914501b361bbc93a56d6915b1bf4fac00277e61f31fdee87a587bc15dea5b6</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc1.h</file>
+         <hash>a8f549a6b1f4cd565eb0a36d7636e5d41d606ac0306929875c5236bafbea93be</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\lib\qtm_freq_hop_auto_cm0p_0x0004.X.a</file>
+         <hash>0cc61b670ccb0ebd7693034a5745421fee4bdf43b6d3e6a708a40e9140ad4551</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
+         <hash>1dbf674e2bc9708afe2cacc75141707c42b89f166e0f1d6f81c04b1b2fa166b8</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\port.h</file>
+         <hash>02e10f2ef318596ee19ed5af01853a95e2c89c6a197f5cf55332ab2901ffb395</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\osc32kctrl.h</file>
+         <hash>518fb1a9fad72c468fbf6206b8e1747de151c6b265b33b087e509952a7ecc591</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
+         <hash>8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\libc_syscalls.c</file>
+         <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\evsys.h</file>
+         <hash>10c0cdcd7d62c6c98e69606321a9188006df8719f72402b1c4e0c26da1ab577a</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom3.h</file>
+         <hash>5872ccaeb27e4a30a2d461941ea5e95aa7094b6e83e6f9d98ab1da1418abd74a</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\evsys.h</file>
+         <hash>dbb44024cd086fbf321834f076f9275d2d3b0ec44e8ca85c026aef6af1a6d5de</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\osc32kctrl.h</file>
+         <hash>f5c56554aa57293ea1a1501e119a9ee1d91a7400fd3a1a6e6e6df5cc6937f82c</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\sercom.h</file>
+         <hash>bf211976af71549a688550c6f7ecaf166c3b46f1cda533dbcb9dee69b3e4c9dc</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\trng.h</file>
+         <hash>0a12a20d664b788016105cc6a002c32a2ac8d4296ee120ea12bf3628798f004e</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\dac.h</file>
+         <hash>d5a8caddcde4ed7451ae9adb888a6bfc191c91fe051c1db23cceedee3ba55851</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc4.h</file>
+         <hash>bee89ad1fa0b3a6edf4e67ab6b0ecaea4ead6e843ca986d8bd75ef93d3d6ee90</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc0.h</file>
+         <hash>ad20f8732b1420aa3a21915c449bd40271f20c496bacf2a06f336f013e85f8d0</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\oscctrl.h</file>
+         <hash>3f00cd963e61e9106571d4ed8d62bf0917125c6bc25f1893e11e02b15015ce67</hash>
+      </entry>
+      <entry>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\nvmctrl.h</file>
+         <hash>06d394e45f53a33a1f5d5369052f71a4546b51a6bdf137e08ff7720cad61bbee</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.h</file>
+         <hash>b232188f8cea4bbc1a1e886a3fe9315af5a0485353715b20535548bae3b3f033</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\touch\lib\qtm_touch_key_cm0p_0x0002.X.a</file>
+         <hash>ffa2f4c39c786edd62ed89e458a1a1bd65e083947c42c1abe48432f589497045</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\default\exceptions.c</file>
+         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\ccl.h</file>
@@ -42388,196 +43151,44 @@
          <hash>83be593d0f44c3e292c14bbaaa3e79300f4e7ea211969936042ad0dfe88fdd4f</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\dmac.h</file>
-         <hash>e1f980f412041838ba11ea64e6fd2b8e61a5dabe4a31c44d2cd57748bfd1e98a</hash>
+         <file>..\src\config\default\touch\datastreamer\03EB00000000000000AA5501.sc</file>
+         <hash>1511d8932aaeee7d4e49839b24414f54490f0859dd04392b0700e8286adc4d10</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\dsu.h</file>
-         <hash>baae4fef1648171bf2b73a7d004ed5219bf16be99a162d3f8d8bab733fadcf1e</hash>
+         <file>..\src\config\default\peripheral\sercom\usart\plib_sercom3_usart.c</file>
+         <hash>87952e8aa7f9351c0b2da50d98bf8419e604b2a5907555e745f51cf9af8da0f8</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\eic.h</file>
-         <hash>561e9bc8d417aa8c54f6ceda06992fa4cdae06737c50bc038fdc6a1dd38bf552</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\dmac.h</file>
+         <hash>09519453ba1659a1566f5c8349e0fd29eb4f258fdb60e96338183957a3fb08aa</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\evsys.h</file>
-         <hash>dbb44024cd086fbf321834f076f9275d2d3b0ec44e8ca85c026aef6af1a6d5de</hash>
+         <file>..\src\config\default\peripheral\evsys\plib_evsys.c</file>
+         <hash>7bb3bc0d60c4cf18638d76d3dfe9e5b13d2915d09e6a8a7bc4b5faae870c8f48</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\fuses.h</file>
-         <hash>50662ae8fdec0bb0b1e108f30c09e71b6ae1d92c0003c1c837158e6865ed188d</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\gclk.h</file>
-         <hash>34c451887b1412432712bc9d3ccf207418af7499289bee8ed8e9c9099dbd9163</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\mclk.h</file>
-         <hash>41da3fd432ea84d110a5b5287524fa6aa4d4e6cf913f9e4ec89b864a80f634ab</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\mtb.h</file>
-         <hash>d9d6f7ec31a710eed411160b419f57f8610b686da77d719f0dae343bb74a3999</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\nvmctrl.h</file>
-         <hash>06d394e45f53a33a1f5d5369052f71a4546b51a6bdf137e08ff7720cad61bbee</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\opamp.h</file>
-         <hash>f62ffaa036ba66430cd8bd37b4b1904b842a3887a0f426833fd04d4d2a52c91b</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\osc32kctrl.h</file>
-         <hash>f5c56554aa57293ea1a1501e119a9ee1d91a7400fd3a1a6e6e6df5cc6937f82c</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\oscctrl.h</file>
-         <hash>7071442fafe5b01b5ba89ae35c09ee7d24f3dbb93388deaff154696764146df8</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\pac.h</file>
-         <hash>300f6e349b532fd148c05f887fd8fae3fcfe20b7ef296269bdece1ca5c13a4d7</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\pm.h</file>
-         <hash>cee0d463df91c253208968023ef88e54da2fec9deb95072987ca3483978ab7be</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\port.h</file>
-         <hash>02e10f2ef318596ee19ed5af01853a95e2c89c6a197f5cf55332ab2901ffb395</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\ptc.h</file>
-         <hash>f4fcfd8d5a6925fb3dd64a2ec9f2255f76e3b94186805938bdd2681d45855e99</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\rstc.h</file>
-         <hash>837f6408ee4f2c6b67b86902f3b389db22b20ebabe597654da8cf153feb1fcd2</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\rtc.h</file>
-         <hash>10544a1752446bc03dda9c57f0571df3b8a152d3342d2215894d4f80d161fd5a</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom0.h</file>
-         <hash>9adec0eb771d4d1d57a574a84a505c3ba942261d6ff0649c5f231b31d92f84e0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom1.h</file>
-         <hash>24e7d2fba7df6ff52ece1924e7f0476336fefe6f57f2cefb03065c8e4a9f1a0d</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom2.h</file>
-         <hash>b76f3ab6704e55b9a57a1ad9486e3abaa9d6e2b64963aaab96c1c3985ef3d497</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom3.h</file>
-         <hash>5872ccaeb27e4a30a2d461941ea5e95aa7094b6e83e6f9d98ab1da1418abd74a</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom4.h</file>
-         <hash>dd14e51c43beb8e2763fe1f5a39d5315df89cf695be837c89c53f3a82e52eba7</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\sercom5.h</file>
-         <hash>6797ca473300f7fd77b71aa19076f530c67fcb834c85576fb599787db47962ce</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\supc.h</file>
-         <hash>25029bb9ff9a36ae930ce65e993e7573f3ac22a1ce01211d0351aec695f583bf</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc0.h</file>
-         <hash>ad20f8732b1420aa3a21915c449bd40271f20c496bacf2a06f336f013e85f8d0</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc1.h</file>
-         <hash>a4c206e14f1c7fd5e8ae1fbbe36c0e253913823246a08c0dd283e69ff29e0c15</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc2.h</file>
-         <hash>5901d2738db692fccf39d5f98ae6cc3364424bec9f76b33d0b09acb91f1d2c35</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc3.h</file>
-         <hash>0f4e88d336710ff48227159523014c5133bbadf032d131bbd1125c2f2a8185cf</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tc4.h</file>
-         <hash>bee89ad1fa0b3a6edf4e67ab6b0ecaea4ead6e843ca986d8bd75ef93d3d6ee90</hash>
+         <file>..\src\config\default\definitions.h</file>
+         <hash>8026fb60486d6c9db6d8de38f534dfb2d6c00a7a28473709f2393920e5ed1c79</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc0.h</file>
          <hash>a1fdf38c8858cd4c572e8a1e939d15ebece164c8acd1eafde55df765fe4834cb</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc1.h</file>
-         <hash>a8f549a6b1f4cd565eb0a36d7636e5d41d606ac0306929875c5236bafbea93be</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\component\rstc.h</file>
+         <hash>d34f6706c625fff23f7d40cc92f1eb68fbc99d33c4af35f224d1560137904b5d</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\tcc2.h</file>
-         <hash>7edcc82ef9d96109dba2084e0a63015669960550d098ad30cb99cbd9ed8c4cd3</hash>
+         <file>..\src\config\default\touch\qtm_touch_key_0x0002_api.h</file>
+         <hash>f5fb6d6080df1ed77d350b05e797de5d191bbd2c041becf2dc2a4d6b120d728d</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\trng.h</file>
-         <hash>0a12a20d664b788016105cc6a002c32a2ac8d4296ee120ea12bf3628798f004e</hash>
+         <file>..\src\packs\ATSAML21J18B_DFP\instance\supc.h</file>
+         <hash>25029bb9ff9a36ae930ce65e993e7573f3ac22a1ce01211d0351aec695f583bf</hash>
       </entry>
       <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\usb.h</file>
-         <hash>ca8d0c46e9f9386307b53df502f1cc48a9d8a019b07a2b94890cbbbf907298fe</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\instance\wdt.h</file>
-         <hash>27a9b39105bdd9e6973289a37c448a4fd3f55114e5698f8d6808740d4dbd8549</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\pio\saml21j18b.h</file>
-         <hash>8b4c6aa98f9dbf47940d2bdfefd83f6bb47af45faf251dd5219674fc820f3e3c</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\ATSAML21J18B_DFP\saml21j18b.h</file>
-         <hash>aafb272731de4b20186045b2008dcf0403b1c4ed5f394622f651b7277e39c103</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cachel1_armv7.h</file>
-         <hash>6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
-         <hash>d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang.h</file>
-         <hash>11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armclang_ltm.h</file>
-         <hash>8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
-         <hash>869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
-         <hash>3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_iccarm.h</file>
-         <hash>f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
-         <hash>2de01ae2556a38eb82c389de23c701805ec63308cfbcf3f84cb12141589b0858</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm0plus.h</file>
-         <hash>a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5</hash>
-      </entry>
-      <entry>
-         <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv7.h</file>
-         <hash>de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb</hash>
+         <file>..\src\config\default\peripheral\evsys\plib_evsys.h</file>
+         <hash>f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

@@ -13,8 +13,8 @@
 14,PA05,,Available,,,,,,NORMAL
 15,PA06,,Available,,,,,,NORMAL
 16,PA07,,Available,,,,,,NORMAL
-17,PA08,,Available,,,,,,NORMAL
-18,PA09,,Available,,,,,,NORMAL
+17,PA08,DVRT_Tx,SERCOM2_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+18,PA09,DVRT_Rx,SERCOM2_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
 19,PA10,,PTC_X2/Y8,Analog,High Impedance,n/a,,,NORMAL
 20,PA11,,Available,,,,,,NORMAL
 23,PB10,LED,LED_AL,Digital,Out,High,,,NORMAL

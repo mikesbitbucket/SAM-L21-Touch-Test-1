@@ -65,6 +65,14 @@
 // *****************************************************************************
 // *****************************************************************************
 
+/*** Macros for DVRT_Tx pin ***/
+#define DVRT_Tx_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 8U)) & 0x01U)
+#define DVRT_Tx_PIN                  PORT_PIN_PA08
+
+/*** Macros for DVRT_Rx pin ***/
+#define DVRT_Rx_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 9U)) & 0x01U)
+#define DVRT_Rx_PIN                  PORT_PIN_PA09
+
 /*** Macros for Tx pin ***/
 #define Tx_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 22U)) & 0x01U)
 #define Tx_PIN                  PORT_PIN_PA22
